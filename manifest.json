@@ -5,11 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.Cameras._3OGS_FreeLookCamera.yml",
+      "source_relative_path": "api/OGS.Debug.Cameras._3OGS_FreeLookCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.Cameras._3OGS_FreeLookCamera.html",
-          "hash": "covovLykKCHEZs2tWDovxJnCN147ERBqt19Z+PC2ie8="
+          "relative_path": "api/OGS.Debug.Cameras._3OGS_FreeLookCamera.html",
+          "hash": "OZL9bBWte/8gC5FioF/GImEhhAvdxwCjeKf0LVFXeuY="
         }
       },
       "is_incremental": true,
@@ -17,11 +17,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.Cameras._3OGS_RotateAroundCamera.yml",
+      "source_relative_path": "api/OGS.Debug.Cameras._3OGS_RotateAroundCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.Cameras._3OGS_RotateAroundCamera.html",
-          "hash": "UHXWdlGRfIi/tGwn6Exd1aLxbtIbFrHmqQ69c4j7VXA="
+          "relative_path": "api/OGS.Debug.Cameras._3OGS_RotateAroundCamera.html",
+          "hash": "eui/9O7APnFLj/gt6dL0Gogp9aRdu3isLimNvYPXA68="
         }
       },
       "is_incremental": true,
@@ -29,11 +29,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.Cameras.yml",
+      "source_relative_path": "api/OGS.Debug.Cameras.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.Cameras.html",
-          "hash": "fhYS8ZMTqChRicsNu7jaWN2OmAYMit8h7jB9igSQDqw="
+          "relative_path": "api/OGS.Debug.Cameras.html",
+          "hash": "cfuzgupUGc882lMFBlIBfsNPbKsyTYw9Sh7DvUpFIWk="
         }
       },
       "is_incremental": true,
@@ -41,11 +41,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.DebugButton.yml",
+      "source_relative_path": "api/OGS.Debug.DebugButton.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.DebugButton.html",
-          "hash": "bTwOKwnJTqjs7QvXsHO3HHowUnUiPdWRTdXhftOw7Hg="
+          "relative_path": "api/OGS.Debug.DebugButton.html",
+          "hash": "Q3ra5X8LjM6meXRJ2VsyJ+V8gDickpe520DTpnT8exY="
         }
       },
       "is_incremental": true,
@@ -53,11 +53,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.DebugButtonPanel.yml",
+      "source_relative_path": "api/OGS.Debug.DebugButtonPanel.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.DebugButtonPanel.html",
-          "hash": "1k8IbXMT5FfC1iDgw9GfOPsRnEWN7VyT6dVlhwmFBfI="
+          "relative_path": "api/OGS.Debug.DebugButtonPanel.html",
+          "hash": "i6ATWgGDL/sNvq7drMWo0Ts2AhMdjYinX0JDrMNPbz0="
         }
       },
       "is_incremental": true,
@@ -65,11 +65,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.yml",
+      "source_relative_path": "api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html",
-          "hash": "lpoxQsz6aRX2Sa4/9G0u20nQ2kIesv+ZkfgU2ufe3Dc="
+          "relative_path": "api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html",
+          "hash": "DHgMbsAd8L6nSww1dycznbUtUyEnk/zYCp9OpwVbE+U="
         }
       },
       "is_incremental": true,
@@ -77,11 +77,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug._3OGS_Debug.yml",
+      "source_relative_path": "api/OGS.Debug._3OGS_Debug.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug._3OGS_Debug.html",
-          "hash": "SX8Q85GMslxgxXHC8jEoxZiMGorWSEfH3Yrlx4WQdak="
+          "relative_path": "api/OGS.Debug._3OGS_Debug.html",
+          "hash": "4c08y1hmzgvLZoZc1PIdxMfxsF+UFCnQVf3MFBEGatk="
         }
       },
       "is_incremental": true,
@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug._3OGS_DebugManager.yml",
+      "source_relative_path": "api/OGS.Debug._3OGS_DebugManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug._3OGS_DebugManager.html",
-          "hash": "cjJpm8bzlt9fvynif61A5KErE8HYML2IqB/gWIvv3Qs="
+          "relative_path": "api/OGS.Debug._3OGS_DebugManager.html",
+          "hash": "RxfuykhbMxJiWFLTe/zGvqWdwpITyOpU6DRn9rgFRT8="
         }
       },
       "is_incremental": true,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Debug.yml",
+      "source_relative_path": "api/OGS.Debug.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Debug.html",
-          "hash": "/y8LYyqNgWCyAhRfAxpIFB1p8Ng0QMNZJb38cHKDqS8="
+          "relative_path": "api/OGS.Debug.html",
+          "hash": "JCkjdY0hYeR6PG7J3tKLoRKnZGHCzgkmoE3EUllGd6c="
         }
       },
       "is_incremental": true,
@@ -113,11 +113,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.CameraSwitcher.yml",
+      "source_relative_path": "api/OGS.Utils.CameraSwitcher.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.CameraSwitcher.html",
-          "hash": "ahBpJ2+al/emkvHh3gVDxlBcGousWG61laDJfSpyKO8="
+          "relative_path": "api/OGS.Utils.CameraSwitcher.html",
+          "hash": "kL/8osDsSzyOQb8cdPsmF8RJz7eHsCntTKhRtUqKtcY="
         }
       },
       "is_incremental": true,
@@ -125,11 +125,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.FunctionPeriodic.yml",
+      "source_relative_path": "api/OGS.Utils.FunctionPeriodic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.FunctionPeriodic.html",
-          "hash": "mVIUD5h6eaicjXCNGULrBNPJXY+GZC/aF9ZJh/0043s="
+          "relative_path": "api/OGS.Utils.FunctionPeriodic.html",
+          "hash": "Lsp2v63HYFq2h8SrR6lasB9Dg47q4eeyjV3TWAnufh4="
         }
       },
       "is_incremental": true,
@@ -137,11 +137,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.FunctionTimer.yml",
+      "source_relative_path": "api/OGS.Utils.FunctionTimer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.FunctionTimer.html",
-          "hash": "1vtru/wu4o1YfPPE3J7rDXYBd3qdzVTnDb6I8DWngTE="
+          "relative_path": "api/OGS.Utils.FunctionTimer.html",
+          "hash": "v+zYNso4GFNnytjdwhlrU4zYr4caH/u1lRIaoovkyj0="
         }
       },
       "is_incremental": true,
@@ -149,11 +149,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.FunctionUpdater.yml",
+      "source_relative_path": "api/OGS.Utils.FunctionUpdater.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.FunctionUpdater.html",
-          "hash": "sdiQ115SkdN6lKmWmIHjVWIseAWlLheCtTKLk+1fST0="
+          "relative_path": "api/OGS.Utils.FunctionUpdater.html",
+          "hash": "QOREdEhXjh3BYZ0Vdhe4eVlstJ0recjWNVDtovtb9cg="
         }
       },
       "is_incremental": true,
@@ -161,11 +161,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.LookToCamera.yml",
+      "source_relative_path": "api/OGS.Utils.LookToCamera.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.LookToCamera.html",
-          "hash": "OEMmpv3/w3Huw3NvtLlVgK79dzoM+CaW+eWdmFJs07Y="
+          "relative_path": "api/OGS.Utils.LookToCamera.html",
+          "hash": "CCEw0lvC5EJAtv64B3lMFyd/nDsJUE1lAbza+e6kur0="
         }
       },
       "is_incremental": true,
@@ -173,11 +173,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.World_Sprite.yml",
+      "source_relative_path": "api/OGS.Utils.World_Sprite.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.World_Sprite.html",
-          "hash": "0pQUrmGA3tbIBddZDa3ttigz5NQZdXurpHHcZbNHZqM="
+          "relative_path": "api/OGS.Utils.World_Sprite.html",
+          "hash": "pYuemfU2tPBXqYo8QP0cL9xVhVU5/SI8XToHqYV6FWA="
         }
       },
       "is_incremental": true,
@@ -185,11 +185,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils._3OGS_Utils.yml",
+      "source_relative_path": "api/OGS.Utils._3OGS_Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils._3OGS_Utils.html",
-          "hash": "EgL2H6BQMBfbDXosup9qY97p0HrTYwWoyH3bcAvJwa0="
+          "relative_path": "api/OGS.Utils._3OGS_Utils.html",
+          "hash": "6JSKg2RJEiN/ADJhU5tfZApVPENLuHACOPT9SYMNnow="
         }
       },
       "is_incremental": true,
@@ -197,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/_3OGS.Utils.yml",
+      "source_relative_path": "api/OGS.Utils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/_3OGS.Utils.html",
-          "hash": "s/Qt7mTCynNu/fUm6fj4CcHOKk9i2LxuQ2NTNxser+M="
+          "relative_path": "api/OGS.Utils.html",
+          "hash": "i+bBHWNCA+NNClD/3LwbrMl6BAE8zdbdUo8k3U6n0rA="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "DcFq470GdnhLyjMFcP7aZbtKLD0VqT/md+0EY0vfjXw="
+          "hash": "s8vwjRqZ7gQ7ZSQOcMC6UWR8CiA7eTIl0WUM3xUBJu8="
         }
       },
       "is_incremental": false,
