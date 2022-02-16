@@ -7,250 +7,50 @@ references:
   commentId: N:OGS.Debug
   fullName: OGS.Debug
   nameWithType: OGS.Debug
-- uid: OGS.Debug._3OGS_Debug
-  name: _3OGS_Debug
-  href: api/OGS.Debug._3OGS_Debug.html
-  commentId: T:OGS.Debug._3OGS_Debug
-  fullName: OGS.Debug._3OGS_Debug
-  nameWithType: _3OGS_Debug
-- uid: OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Transform,UnityEngine.Vector3)
-  name: CreateButtonPanel(Transform, Vector3)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateButtonPanel_UnityEngine_Transform_UnityEngine_Vector3_
-  commentId: M:OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Transform,UnityEngine.Vector3)
-  fullName: OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Transform, UnityEngine.Vector3)
-  nameWithType: _3OGS_Debug.CreateButtonPanel(Transform, Vector3)
-- uid: OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
-  name: CreateButtonPanel(Vector3)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateButtonPanel_UnityEngine_Vector3_
-  commentId: M:OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
-  fullName: OGS.Debug._3OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
-  nameWithType: _3OGS_Debug.CreateButtonPanel(Vector3)
-- uid: OGS.Debug._3OGS_Debug.CreateButtonPanel*
-  name: CreateButtonPanel
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateButtonPanel_
-  commentId: Overload:OGS.Debug._3OGS_Debug.CreateButtonPanel
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.CreateButtonPanel
-  nameWithType: _3OGS_Debug.CreateButtonPanel
-- uid: OGS.Debug._3OGS_Debug.CreateDebugButton(System.String,UnityEngine.Vector3,System.Action,System.Boolean)
-  name: CreateDebugButton(String, Vector3, Action, Boolean)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateDebugButton_System_String_UnityEngine_Vector3_System_Action_System_Boolean_
-  commentId: M:OGS.Debug._3OGS_Debug.CreateDebugButton(System.String,UnityEngine.Vector3,System.Action,System.Boolean)
-  fullName: OGS.Debug._3OGS_Debug.CreateDebugButton(System.String, UnityEngine.Vector3, System.Action, System.Boolean)
-  nameWithType: _3OGS_Debug.CreateDebugButton(String, Vector3, Action, Boolean)
-- uid: OGS.Debug._3OGS_Debug.CreateDebugButton(UnityEngine.Transform,System.String,UnityEngine.Vector3,System.Action,System.Boolean)
-  name: CreateDebugButton(Transform, String, Vector3, Action, Boolean)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateDebugButton_UnityEngine_Transform_System_String_UnityEngine_Vector3_System_Action_System_Boolean_
-  commentId: M:OGS.Debug._3OGS_Debug.CreateDebugButton(UnityEngine.Transform,System.String,UnityEngine.Vector3,System.Action,System.Boolean)
-  fullName: OGS.Debug._3OGS_Debug.CreateDebugButton(UnityEngine.Transform, System.String, UnityEngine.Vector3, System.Action, System.Boolean)
-  nameWithType: _3OGS_Debug.CreateDebugButton(Transform, String, Vector3, Action, Boolean)
-- uid: OGS.Debug._3OGS_Debug.CreateDebugButton*
-  name: CreateDebugButton
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_CreateDebugButton_
-  commentId: Overload:OGS.Debug._3OGS_Debug.CreateDebugButton
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.CreateDebugButton
-  nameWithType: _3OGS_Debug.CreateDebugButton
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager
-  name: _3OGS_Debug.RuntimeDebugObjectsManager
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html
-  commentId: T:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-  name: DebugObjects
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_DebugObjects
-  commentId: P:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects*
-  name: DebugObjects
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_DebugObjects_
-  commentId: Overload:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
-  name: DisableDebugObjects()
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_DisableDebugObjects
-  commentId: M:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects()
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects()
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects*
-  name: DisableDebugObjects
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_DisableDebugObjects_
-  commentId: Overload:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
-  name: EnableDebugObjects()
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_EnableDebugObjects
-  commentId: M:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects()
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects()
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects*
-  name: EnableDebugObjects
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_EnableDebugObjects_
-  commentId: Overload:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
-  name: HandleDebugObjectsFarFromCamera()
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_HandleDebugObjectsFarFromCamera
-  commentId: M:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera()
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera()
-- uid: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera*
-  name: HandleDebugObjectsFarFromCamera
-  href: api/OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug__3OGS_Debug_RuntimeDebugObjectsManager_HandleDebugObjectsFarFromCamera_
-  commentId: Overload:OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
-  nameWithType: _3OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
-- uid: OGS.Debug._3OGS_Debug.TextPopup(System.String,UnityEngine.Vector3)
-  name: TextPopup(String, Vector3)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_TextPopup_System_String_UnityEngine_Vector3_
-  commentId: M:OGS.Debug._3OGS_Debug.TextPopup(System.String,UnityEngine.Vector3)
-  fullName: OGS.Debug._3OGS_Debug.TextPopup(System.String, UnityEngine.Vector3)
-  nameWithType: _3OGS_Debug.TextPopup(String, Vector3)
-- uid: OGS.Debug._3OGS_Debug.TextPopup(System.String,UnityEngine.Vector3,System.Single)
-  name: TextPopup(String, Vector3, Single)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_TextPopup_System_String_UnityEngine_Vector3_System_Single_
-  commentId: M:OGS.Debug._3OGS_Debug.TextPopup(System.String,UnityEngine.Vector3,System.Single)
-  fullName: OGS.Debug._3OGS_Debug.TextPopup(System.String, UnityEngine.Vector3, System.Single)
-  nameWithType: _3OGS_Debug.TextPopup(String, Vector3, Single)
-- uid: OGS.Debug._3OGS_Debug.TextPopup*
-  name: TextPopup
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_TextPopup_
-  commentId: Overload:OGS.Debug._3OGS_Debug.TextPopup
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.TextPopup
-  nameWithType: _3OGS_Debug.TextPopup
-- uid: OGS.Debug._3OGS_Debug.UseFreeLookCamera
-  name: UseFreeLookCamera()
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_UseFreeLookCamera
-  commentId: M:OGS.Debug._3OGS_Debug.UseFreeLookCamera
-  fullName: OGS.Debug._3OGS_Debug.UseFreeLookCamera()
-  nameWithType: _3OGS_Debug.UseFreeLookCamera()
-- uid: OGS.Debug._3OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
-  name: UseFreeLookCamera(Vector3)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_UseFreeLookCamera_UnityEngine_Vector3_
-  commentId: M:OGS.Debug._3OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
-  fullName: OGS.Debug._3OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
-  nameWithType: _3OGS_Debug.UseFreeLookCamera(Vector3)
-- uid: OGS.Debug._3OGS_Debug.UseFreeLookCamera*
-  name: UseFreeLookCamera
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_UseFreeLookCamera_
-  commentId: Overload:OGS.Debug._3OGS_Debug.UseFreeLookCamera
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.UseFreeLookCamera
-  nameWithType: _3OGS_Debug.UseFreeLookCamera
-- uid: OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
-  name: UseRotateAroundTargetCamera(Transform)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_UseRotateAroundTargetCamera_UnityEngine_Transform_
-  commentId: M:OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
-  fullName: OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
-  nameWithType: _3OGS_Debug.UseRotateAroundTargetCamera(Transform)
-- uid: OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera*
-  name: UseRotateAroundTargetCamera
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_UseRotateAroundTargetCamera_
-  commentId: Overload:OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.UseRotateAroundTargetCamera
-  nameWithType: _3OGS_Debug.UseRotateAroundTargetCamera
-- uid: OGS.Debug._3OGS_Debug.WorldText(System.String,UnityEngine.Transform,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},UnityEngine.TextAnchor,UnityEngine.TextAlignment,System.Int32)
-  name: WorldText(String, Transform, Vector3, Int32, Nullable<Color>, TextAnchor, TextAlignment, Int32)
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_WorldText_System_String_UnityEngine_Transform_UnityEngine_Vector3_System_Int32_System_Nullable_UnityEngine_Color__UnityEngine_TextAnchor_UnityEngine_TextAlignment_System_Int32_
-  commentId: M:OGS.Debug._3OGS_Debug.WorldText(System.String,UnityEngine.Transform,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},UnityEngine.TextAnchor,UnityEngine.TextAlignment,System.Int32)
-  name.vb: WorldText(String, Transform, Vector3, Int32, Nullable(Of Color), TextAnchor, TextAlignment, Int32)
-  fullName: OGS.Debug._3OGS_Debug.WorldText(System.String, UnityEngine.Transform, UnityEngine.Vector3, System.Int32, System.Nullable<UnityEngine.Color>, UnityEngine.TextAnchor, UnityEngine.TextAlignment, System.Int32)
-  fullName.vb: OGS.Debug._3OGS_Debug.WorldText(System.String, UnityEngine.Transform, UnityEngine.Vector3, System.Int32, System.Nullable(Of UnityEngine.Color), UnityEngine.TextAnchor, UnityEngine.TextAlignment, System.Int32)
-  nameWithType: _3OGS_Debug.WorldText(String, Transform, Vector3, Int32, Nullable<Color>, TextAnchor, TextAlignment, Int32)
-  nameWithType.vb: _3OGS_Debug.WorldText(String, Transform, Vector3, Int32, Nullable(Of Color), TextAnchor, TextAlignment, Int32)
-- uid: OGS.Debug._3OGS_Debug.WorldText*
-  name: WorldText
-  href: api/OGS.Debug._3OGS_Debug.html#OGS_Debug__3OGS_Debug_WorldText_
-  commentId: Overload:OGS.Debug._3OGS_Debug.WorldText
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_Debug.WorldText
-  nameWithType: _3OGS_Debug.WorldText
-- uid: OGS.Debug._3OGS_DebugManager
-  name: _3OGS_DebugManager
-  href: api/OGS.Debug._3OGS_DebugManager.html
-  commentId: T:OGS.Debug._3OGS_DebugManager
-  fullName: OGS.Debug._3OGS_DebugManager
-  nameWithType: _3OGS_DebugManager
-- uid: OGS.Debug._3OGS_DebugManager.EmptyObject
-  name: EmptyObject
-  href: api/OGS.Debug._3OGS_DebugManager.html#OGS_Debug__3OGS_DebugManager_EmptyObject
-  commentId: F:OGS.Debug._3OGS_DebugManager.EmptyObject
-  fullName: OGS.Debug._3OGS_DebugManager.EmptyObject
-  nameWithType: _3OGS_DebugManager.EmptyObject
-- uid: OGS.Debug._3OGS_DebugManager.Settings
-  name: Settings
-  href: api/OGS.Debug._3OGS_DebugManager.html#OGS_Debug__3OGS_DebugManager_Settings
-  commentId: F:OGS.Debug._3OGS_DebugManager.Settings
-  fullName: OGS.Debug._3OGS_DebugManager.Settings
-  nameWithType: _3OGS_DebugManager.Settings
-- uid: OGS.Debug._3OGS_DebugManager.SharedInstance
-  name: SharedInstance
-  href: api/OGS.Debug._3OGS_DebugManager.html#OGS_Debug__3OGS_DebugManager_SharedInstance
-  commentId: P:OGS.Debug._3OGS_DebugManager.SharedInstance
-  fullName: OGS.Debug._3OGS_DebugManager.SharedInstance
-  nameWithType: _3OGS_DebugManager.SharedInstance
-- uid: OGS.Debug._3OGS_DebugManager.SharedInstance*
-  name: SharedInstance
-  href: api/OGS.Debug._3OGS_DebugManager.html#OGS_Debug__3OGS_DebugManager_SharedInstance_
-  commentId: Overload:OGS.Debug._3OGS_DebugManager.SharedInstance
-  isSpec: "True"
-  fullName: OGS.Debug._3OGS_DebugManager.SharedInstance
-  nameWithType: _3OGS_DebugManager.SharedInstance
 - uid: OGS.Debug.Cameras
   name: OGS.Debug.Cameras
   href: api/OGS.Debug.Cameras.html
   commentId: N:OGS.Debug.Cameras
   fullName: OGS.Debug.Cameras
   nameWithType: OGS.Debug.Cameras
-- uid: OGS.Debug.Cameras._3OGS_FreeLookCamera
-  name: _3OGS_FreeLookCamera
-  href: api/OGS.Debug.Cameras._3OGS_FreeLookCamera.html
-  commentId: T:OGS.Debug.Cameras._3OGS_FreeLookCamera
-  fullName: OGS.Debug.Cameras._3OGS_FreeLookCamera
-  nameWithType: _3OGS_FreeLookCamera
-- uid: OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
+- uid: OGS.Debug.Cameras.OGS_FreeLookCamera
+  name: OGS_FreeLookCamera
+  href: api/OGS.Debug.Cameras.OGS_FreeLookCamera.html
+  commentId: T:OGS.Debug.Cameras.OGS_FreeLookCamera
+  fullName: OGS.Debug.Cameras.OGS_FreeLookCamera
+  nameWithType: OGS_FreeLookCamera
+- uid: OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
   name: CreateFreeLookCamera(Vector3)
-  href: api/OGS.Debug.Cameras._3OGS_FreeLookCamera.html#OGS_Debug_Cameras__3OGS_FreeLookCamera_CreateFreeLookCamera_UnityEngine_Vector3_
-  commentId: M:OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
-  fullName: OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
-  nameWithType: _3OGS_FreeLookCamera.CreateFreeLookCamera(Vector3)
-- uid: OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera*
+  href: api/OGS.Debug.Cameras.OGS_FreeLookCamera.html#OGS_Debug_Cameras_OGS_FreeLookCamera_CreateFreeLookCamera_UnityEngine_Vector3_
+  commentId: M:OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
+  fullName: OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera(UnityEngine.Vector3)
+  nameWithType: OGS_FreeLookCamera.CreateFreeLookCamera(Vector3)
+- uid: OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera*
   name: CreateFreeLookCamera
-  href: api/OGS.Debug.Cameras._3OGS_FreeLookCamera.html#OGS_Debug_Cameras__3OGS_FreeLookCamera_CreateFreeLookCamera_
-  commentId: Overload:OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera
+  href: api/OGS.Debug.Cameras.OGS_FreeLookCamera.html#OGS_Debug_Cameras_OGS_FreeLookCamera_CreateFreeLookCamera_
+  commentId: Overload:OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera
   isSpec: "True"
-  fullName: OGS.Debug.Cameras._3OGS_FreeLookCamera.CreateFreeLookCamera
-  nameWithType: _3OGS_FreeLookCamera.CreateFreeLookCamera
-- uid: OGS.Debug.Cameras._3OGS_RotateAroundCamera
-  name: _3OGS_RotateAroundCamera
-  href: api/OGS.Debug.Cameras._3OGS_RotateAroundCamera.html
-  commentId: T:OGS.Debug.Cameras._3OGS_RotateAroundCamera
-  fullName: OGS.Debug.Cameras._3OGS_RotateAroundCamera
-  nameWithType: _3OGS_RotateAroundCamera
-- uid: OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
+  fullName: OGS.Debug.Cameras.OGS_FreeLookCamera.CreateFreeLookCamera
+  nameWithType: OGS_FreeLookCamera.CreateFreeLookCamera
+- uid: OGS.Debug.Cameras.OGS_RotateAroundCamera
+  name: OGS_RotateAroundCamera
+  href: api/OGS.Debug.Cameras.OGS_RotateAroundCamera.html
+  commentId: T:OGS.Debug.Cameras.OGS_RotateAroundCamera
+  fullName: OGS.Debug.Cameras.OGS_RotateAroundCamera
+  nameWithType: OGS_RotateAroundCamera
+- uid: OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
   name: CreateRotateAroundToTargetCamera(Transform)
-  href: api/OGS.Debug.Cameras._3OGS_RotateAroundCamera.html#OGS_Debug_Cameras__3OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_UnityEngine_Transform_
-  commentId: M:OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
-  fullName: OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
-  nameWithType: _3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(Transform)
-- uid: OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera*
+  href: api/OGS.Debug.Cameras.OGS_RotateAroundCamera.html#OGS_Debug_Cameras_OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_UnityEngine_Transform_
+  commentId: M:OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
+  fullName: OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)
+  nameWithType: OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(Transform)
+- uid: OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera*
   name: CreateRotateAroundToTargetCamera
-  href: api/OGS.Debug.Cameras._3OGS_RotateAroundCamera.html#OGS_Debug_Cameras__3OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_
-  commentId: Overload:OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
+  href: api/OGS.Debug.Cameras.OGS_RotateAroundCamera.html#OGS_Debug_Cameras_OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_
+  commentId: Overload:OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
   isSpec: "True"
-  fullName: OGS.Debug.Cameras._3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
-  nameWithType: _3OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
+  fullName: OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
+  nameWithType: OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera
 - uid: OGS.Debug.DebugButton
   name: DebugButton
   href: api/OGS.Debug.DebugButton.html
@@ -380,377 +180,212 @@ references:
   isSpec: "True"
   fullName: OGS.Debug.DebugButtonPanel.AddButtonWithMessage
   nameWithType: DebugButtonPanel.AddButtonWithMessage
+- uid: OGS.Debug.OGS_Debug
+  name: OGS_Debug
+  href: api/OGS.Debug.OGS_Debug.html
+  commentId: T:OGS.Debug.OGS_Debug
+  fullName: OGS.Debug.OGS_Debug
+  nameWithType: OGS_Debug
+- uid: OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Transform,UnityEngine.Vector3)
+  name: CreateButtonPanel(Transform, Vector3)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateButtonPanel_UnityEngine_Transform_UnityEngine_Vector3_
+  commentId: M:OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Transform,UnityEngine.Vector3)
+  fullName: OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Transform, UnityEngine.Vector3)
+  nameWithType: OGS_Debug.CreateButtonPanel(Transform, Vector3)
+- uid: OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
+  name: CreateButtonPanel(Vector3)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateButtonPanel_UnityEngine_Vector3_
+  commentId: M:OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
+  fullName: OGS.Debug.OGS_Debug.CreateButtonPanel(UnityEngine.Vector3)
+  nameWithType: OGS_Debug.CreateButtonPanel(Vector3)
+- uid: OGS.Debug.OGS_Debug.CreateButtonPanel*
+  name: CreateButtonPanel
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateButtonPanel_
+  commentId: Overload:OGS.Debug.OGS_Debug.CreateButtonPanel
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.CreateButtonPanel
+  nameWithType: OGS_Debug.CreateButtonPanel
+- uid: OGS.Debug.OGS_Debug.CreateDebugButton(System.String,UnityEngine.Vector3,System.Action,System.Boolean)
+  name: CreateDebugButton(String, Vector3, Action, Boolean)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateDebugButton_System_String_UnityEngine_Vector3_System_Action_System_Boolean_
+  commentId: M:OGS.Debug.OGS_Debug.CreateDebugButton(System.String,UnityEngine.Vector3,System.Action,System.Boolean)
+  fullName: OGS.Debug.OGS_Debug.CreateDebugButton(System.String, UnityEngine.Vector3, System.Action, System.Boolean)
+  nameWithType: OGS_Debug.CreateDebugButton(String, Vector3, Action, Boolean)
+- uid: OGS.Debug.OGS_Debug.CreateDebugButton(UnityEngine.Transform,System.String,UnityEngine.Vector3,System.Action,System.Boolean)
+  name: CreateDebugButton(Transform, String, Vector3, Action, Boolean)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateDebugButton_UnityEngine_Transform_System_String_UnityEngine_Vector3_System_Action_System_Boolean_
+  commentId: M:OGS.Debug.OGS_Debug.CreateDebugButton(UnityEngine.Transform,System.String,UnityEngine.Vector3,System.Action,System.Boolean)
+  fullName: OGS.Debug.OGS_Debug.CreateDebugButton(UnityEngine.Transform, System.String, UnityEngine.Vector3, System.Action, System.Boolean)
+  nameWithType: OGS_Debug.CreateDebugButton(Transform, String, Vector3, Action, Boolean)
+- uid: OGS.Debug.OGS_Debug.CreateDebugButton*
+  name: CreateDebugButton
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_CreateDebugButton_
+  commentId: Overload:OGS.Debug.OGS_Debug.CreateDebugButton
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.CreateDebugButton
+  nameWithType: OGS_Debug.CreateDebugButton
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager
+  name: OGS_Debug.RuntimeDebugObjectsManager
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html
+  commentId: T:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+  name: DebugObjects
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_DebugObjects
+  commentId: P:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects*
+  name: DebugObjects
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_DebugObjects_
+  commentId: Overload:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.DebugObjects
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
+  name: DisableDebugObjects()
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_DisableDebugObjects
+  commentId: M:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects()
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects()
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects*
+  name: DisableDebugObjects
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_DisableDebugObjects_
+  commentId: Overload:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.DisableDebugObjects
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
+  name: EnableDebugObjects()
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_EnableDebugObjects
+  commentId: M:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects()
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects()
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects*
+  name: EnableDebugObjects
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_EnableDebugObjects_
+  commentId: Overload:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.EnableDebugObjects
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
+  name: HandleDebugObjectsFarFromCamera()
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_HandleDebugObjectsFarFromCamera
+  commentId: M:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera()
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera()
+- uid: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera*
+  name: HandleDebugObjectsFarFromCamera
+  href: api/OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.html#OGS_Debug_OGS_Debug_RuntimeDebugObjectsManager_HandleDebugObjectsFarFromCamera_
+  commentId: Overload:OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
+  nameWithType: OGS_Debug.RuntimeDebugObjectsManager.HandleDebugObjectsFarFromCamera
+- uid: OGS.Debug.OGS_Debug.TextPopup(System.String,UnityEngine.Vector3)
+  name: TextPopup(String, Vector3)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_TextPopup_System_String_UnityEngine_Vector3_
+  commentId: M:OGS.Debug.OGS_Debug.TextPopup(System.String,UnityEngine.Vector3)
+  fullName: OGS.Debug.OGS_Debug.TextPopup(System.String, UnityEngine.Vector3)
+  nameWithType: OGS_Debug.TextPopup(String, Vector3)
+- uid: OGS.Debug.OGS_Debug.TextPopup(System.String,UnityEngine.Vector3,System.Single)
+  name: TextPopup(String, Vector3, Single)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_TextPopup_System_String_UnityEngine_Vector3_System_Single_
+  commentId: M:OGS.Debug.OGS_Debug.TextPopup(System.String,UnityEngine.Vector3,System.Single)
+  fullName: OGS.Debug.OGS_Debug.TextPopup(System.String, UnityEngine.Vector3, System.Single)
+  nameWithType: OGS_Debug.TextPopup(String, Vector3, Single)
+- uid: OGS.Debug.OGS_Debug.TextPopup*
+  name: TextPopup
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_TextPopup_
+  commentId: Overload:OGS.Debug.OGS_Debug.TextPopup
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.TextPopup
+  nameWithType: OGS_Debug.TextPopup
+- uid: OGS.Debug.OGS_Debug.UseFreeLookCamera
+  name: UseFreeLookCamera()
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_UseFreeLookCamera
+  commentId: M:OGS.Debug.OGS_Debug.UseFreeLookCamera
+  fullName: OGS.Debug.OGS_Debug.UseFreeLookCamera()
+  nameWithType: OGS_Debug.UseFreeLookCamera()
+- uid: OGS.Debug.OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
+  name: UseFreeLookCamera(Vector3)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_UseFreeLookCamera_UnityEngine_Vector3_
+  commentId: M:OGS.Debug.OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
+  fullName: OGS.Debug.OGS_Debug.UseFreeLookCamera(UnityEngine.Vector3)
+  nameWithType: OGS_Debug.UseFreeLookCamera(Vector3)
+- uid: OGS.Debug.OGS_Debug.UseFreeLookCamera*
+  name: UseFreeLookCamera
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_UseFreeLookCamera_
+  commentId: Overload:OGS.Debug.OGS_Debug.UseFreeLookCamera
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.UseFreeLookCamera
+  nameWithType: OGS_Debug.UseFreeLookCamera
+- uid: OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
+  name: UseRotateAroundTargetCamera(Transform)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_UseRotateAroundTargetCamera_UnityEngine_Transform_
+  commentId: M:OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
+  fullName: OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera(UnityEngine.Transform)
+  nameWithType: OGS_Debug.UseRotateAroundTargetCamera(Transform)
+- uid: OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera*
+  name: UseRotateAroundTargetCamera
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_UseRotateAroundTargetCamera_
+  commentId: Overload:OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.UseRotateAroundTargetCamera
+  nameWithType: OGS_Debug.UseRotateAroundTargetCamera
+- uid: OGS.Debug.OGS_Debug.WorldText(System.String,UnityEngine.Transform,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},UnityEngine.TextAnchor,UnityEngine.TextAlignment,System.Int32)
+  name: WorldText(String, Transform, Vector3, Int32, Nullable<Color>, TextAnchor, TextAlignment, Int32)
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_WorldText_System_String_UnityEngine_Transform_UnityEngine_Vector3_System_Int32_System_Nullable_UnityEngine_Color__UnityEngine_TextAnchor_UnityEngine_TextAlignment_System_Int32_
+  commentId: M:OGS.Debug.OGS_Debug.WorldText(System.String,UnityEngine.Transform,UnityEngine.Vector3,System.Int32,System.Nullable{UnityEngine.Color},UnityEngine.TextAnchor,UnityEngine.TextAlignment,System.Int32)
+  name.vb: WorldText(String, Transform, Vector3, Int32, Nullable(Of Color), TextAnchor, TextAlignment, Int32)
+  fullName: OGS.Debug.OGS_Debug.WorldText(System.String, UnityEngine.Transform, UnityEngine.Vector3, System.Int32, System.Nullable<UnityEngine.Color>, UnityEngine.TextAnchor, UnityEngine.TextAlignment, System.Int32)
+  fullName.vb: OGS.Debug.OGS_Debug.WorldText(System.String, UnityEngine.Transform, UnityEngine.Vector3, System.Int32, System.Nullable(Of UnityEngine.Color), UnityEngine.TextAnchor, UnityEngine.TextAlignment, System.Int32)
+  nameWithType: OGS_Debug.WorldText(String, Transform, Vector3, Int32, Nullable<Color>, TextAnchor, TextAlignment, Int32)
+  nameWithType.vb: OGS_Debug.WorldText(String, Transform, Vector3, Int32, Nullable(Of Color), TextAnchor, TextAlignment, Int32)
+- uid: OGS.Debug.OGS_Debug.WorldText*
+  name: WorldText
+  href: api/OGS.Debug.OGS_Debug.html#OGS_Debug_OGS_Debug_WorldText_
+  commentId: Overload:OGS.Debug.OGS_Debug.WorldText
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_Debug.WorldText
+  nameWithType: OGS_Debug.WorldText
+- uid: OGS.Debug.OGS_DebugManager
+  name: OGS_DebugManager
+  href: api/OGS.Debug.OGS_DebugManager.html
+  commentId: T:OGS.Debug.OGS_DebugManager
+  fullName: OGS.Debug.OGS_DebugManager
+  nameWithType: OGS_DebugManager
+- uid: OGS.Debug.OGS_DebugManager.EmptyObject
+  name: EmptyObject
+  href: api/OGS.Debug.OGS_DebugManager.html#OGS_Debug_OGS_DebugManager_EmptyObject
+  commentId: F:OGS.Debug.OGS_DebugManager.EmptyObject
+  fullName: OGS.Debug.OGS_DebugManager.EmptyObject
+  nameWithType: OGS_DebugManager.EmptyObject
+- uid: OGS.Debug.OGS_DebugManager.Settings
+  name: Settings
+  href: api/OGS.Debug.OGS_DebugManager.html#OGS_Debug_OGS_DebugManager_Settings
+  commentId: F:OGS.Debug.OGS_DebugManager.Settings
+  fullName: OGS.Debug.OGS_DebugManager.Settings
+  nameWithType: OGS_DebugManager.Settings
+- uid: OGS.Debug.OGS_DebugManager.SharedInstance
+  name: SharedInstance
+  href: api/OGS.Debug.OGS_DebugManager.html#OGS_Debug_OGS_DebugManager_SharedInstance
+  commentId: P:OGS.Debug.OGS_DebugManager.SharedInstance
+  fullName: OGS.Debug.OGS_DebugManager.SharedInstance
+  nameWithType: OGS_DebugManager.SharedInstance
+- uid: OGS.Debug.OGS_DebugManager.SharedInstance*
+  name: SharedInstance
+  href: api/OGS.Debug.OGS_DebugManager.html#OGS_Debug_OGS_DebugManager_SharedInstance_
+  commentId: Overload:OGS.Debug.OGS_DebugManager.SharedInstance
+  isSpec: "True"
+  fullName: OGS.Debug.OGS_DebugManager.SharedInstance
+  nameWithType: OGS_DebugManager.SharedInstance
 - uid: OGS.Utils
   name: OGS.Utils
   href: api/OGS.Utils.html
   commentId: N:OGS.Utils
   fullName: OGS.Utils
   nameWithType: OGS.Utils
-- uid: OGS.Utils._3OGS_Utils
-  name: _3OGS_Utils
-  href: api/OGS.Utils._3OGS_Utils.html
-  commentId: T:OGS.Utils._3OGS_Utils
-  fullName: OGS.Utils._3OGS_Utils
-  nameWithType: _3OGS_Utils
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode,System.Action)
-  name: CreateKeyCodeAction(KeyCode, Action)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeAction_UnityEngine_KeyCode_System_Action_
-  commentId: M:OGS.Utils._3OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode,System.Action)
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode, System.Action)
-  nameWithType: _3OGS_Utils.CreateKeyCodeAction(KeyCode, Action)
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeAction*
-  name: CreateKeyCodeAction
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeAction_
-  commentId: Overload:OGS.Utils._3OGS_Utils.CreateKeyCodeAction
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeAction
-  nameWithType: _3OGS_Utils.CreateKeyCodeAction
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode,System.Action)
-  name: CreateKeyCodeDownAction(KeyCode, Action)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeDownAction_UnityEngine_KeyCode_System_Action_
-  commentId: M:OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode,System.Action)
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode, System.Action)
-  nameWithType: _3OGS_Utils.CreateKeyCodeDownAction(KeyCode, Action)
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction*
-  name: CreateKeyCodeDownAction
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeDownAction_
-  commentId: Overload:OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeDownAction
-  nameWithType: _3OGS_Utils.CreateKeyCodeDownAction
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode,System.Action)
-  name: CreateKeyCodeUpAction(KeyCode, Action)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeUpAction_UnityEngine_KeyCode_System_Action_
-  commentId: M:OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode,System.Action)
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode, System.Action)
-  nameWithType: _3OGS_Utils.CreateKeyCodeUpAction(KeyCode, Action)
-- uid: OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction*
-  name: CreateKeyCodeUpAction
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_CreateKeyCodeUpAction_
-  commentId: Overload:OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.CreateKeyCodeUpAction
-  nameWithType: _3OGS_Utils.CreateKeyCodeUpAction
-- uid: OGS.Utils._3OGS_Utils.Dec_to_Hex(System.Int32)
-  name: Dec_to_Hex(Int32)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Dec_to_Hex_System_Int32_
-  commentId: M:OGS.Utils._3OGS_Utils.Dec_to_Hex(System.Int32)
-  fullName: OGS.Utils._3OGS_Utils.Dec_to_Hex(System.Int32)
-  nameWithType: _3OGS_Utils.Dec_to_Hex(Int32)
-- uid: OGS.Utils._3OGS_Utils.Dec_to_Hex*
-  name: Dec_to_Hex
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Dec_to_Hex_
-  commentId: Overload:OGS.Utils._3OGS_Utils.Dec_to_Hex
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.Dec_to_Hex
-  nameWithType: _3OGS_Utils.Dec_to_Hex
-- uid: OGS.Utils._3OGS_Utils.Dec01_to_Hex(System.Single)
-  name: Dec01_to_Hex(Single)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Dec01_to_Hex_System_Single_
-  commentId: M:OGS.Utils._3OGS_Utils.Dec01_to_Hex(System.Single)
-  fullName: OGS.Utils._3OGS_Utils.Dec01_to_Hex(System.Single)
-  nameWithType: _3OGS_Utils.Dec01_to_Hex(Single)
-- uid: OGS.Utils._3OGS_Utils.Dec01_to_Hex*
-  name: Dec01_to_Hex
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Dec01_to_Hex_
-  commentId: Overload:OGS.Utils._3OGS_Utils.Dec01_to_Hex
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.Dec01_to_Hex
-  nameWithType: _3OGS_Utils.Dec01_to_Hex
-- uid: OGS.Utils._3OGS_Utils.GetButtonColorOnClick
-  name: GetButtonColorOnClick()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonColorOnClick
-  commentId: M:OGS.Utils._3OGS_Utils.GetButtonColorOnClick
-  fullName: OGS.Utils._3OGS_Utils.GetButtonColorOnClick()
-  nameWithType: _3OGS_Utils.GetButtonColorOnClick()
-- uid: OGS.Utils._3OGS_Utils.GetButtonColorOnClick*
-  name: GetButtonColorOnClick
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonColorOnClick_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetButtonColorOnClick
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetButtonColorOnClick
-  nameWithType: _3OGS_Utils.GetButtonColorOnClick
-- uid: OGS.Utils._3OGS_Utils.GetButtonColorOnOver
-  name: GetButtonColorOnOver()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonColorOnOver
-  commentId: M:OGS.Utils._3OGS_Utils.GetButtonColorOnOver
-  fullName: OGS.Utils._3OGS_Utils.GetButtonColorOnOver()
-  nameWithType: _3OGS_Utils.GetButtonColorOnOver()
-- uid: OGS.Utils._3OGS_Utils.GetButtonColorOnOver*
-  name: GetButtonColorOnOver
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonColorOnOver_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetButtonColorOnOver
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetButtonColorOnOver
-  nameWithType: _3OGS_Utils.GetButtonColorOnOver
-- uid: OGS.Utils._3OGS_Utils.GetButtonPanelOffset
-  name: GetButtonPanelOffset()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonPanelOffset
-  commentId: M:OGS.Utils._3OGS_Utils.GetButtonPanelOffset
-  fullName: OGS.Utils._3OGS_Utils.GetButtonPanelOffset()
-  nameWithType: _3OGS_Utils.GetButtonPanelOffset()
-- uid: OGS.Utils._3OGS_Utils.GetButtonPanelOffset*
-  name: GetButtonPanelOffset
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonPanelOffset_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetButtonPanelOffset
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetButtonPanelOffset
-  nameWithType: _3OGS_Utils.GetButtonPanelOffset
-- uid: OGS.Utils._3OGS_Utils.GetButtonSize
-  name: GetButtonSize()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonSize
-  commentId: M:OGS.Utils._3OGS_Utils.GetButtonSize
-  fullName: OGS.Utils._3OGS_Utils.GetButtonSize()
-  nameWithType: _3OGS_Utils.GetButtonSize()
-- uid: OGS.Utils._3OGS_Utils.GetButtonSize*
-  name: GetButtonSize
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetButtonSize_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetButtonSize
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetButtonSize
-  nameWithType: _3OGS_Utils.GetButtonSize
-- uid: OGS.Utils._3OGS_Utils.GetCanvasTransform
-  name: GetCanvasTransform()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetCanvasTransform
-  commentId: M:OGS.Utils._3OGS_Utils.GetCanvasTransform
-  fullName: OGS.Utils._3OGS_Utils.GetCanvasTransform()
-  nameWithType: _3OGS_Utils.GetCanvasTransform()
-- uid: OGS.Utils._3OGS_Utils.GetCanvasTransform*
-  name: GetCanvasTransform
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetCanvasTransform_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetCanvasTransform
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetCanvasTransform
-  nameWithType: _3OGS_Utils.GetCanvasTransform
-- uid: OGS.Utils._3OGS_Utils.GetColorFromString(System.String)
-  name: GetColorFromString(String)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetColorFromString_System_String_
-  commentId: M:OGS.Utils._3OGS_Utils.GetColorFromString(System.String)
-  fullName: OGS.Utils._3OGS_Utils.GetColorFromString(System.String)
-  nameWithType: _3OGS_Utils.GetColorFromString(String)
-- uid: OGS.Utils._3OGS_Utils.GetColorFromString*
-  name: GetColorFromString
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetColorFromString_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetColorFromString
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetColorFromString
-  nameWithType: _3OGS_Utils.GetColorFromString
-- uid: OGS.Utils._3OGS_Utils.GetCurrentCamera
-  name: GetCurrentCamera()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetCurrentCamera
-  commentId: M:OGS.Utils._3OGS_Utils.GetCurrentCamera
-  fullName: OGS.Utils._3OGS_Utils.GetCurrentCamera()
-  nameWithType: _3OGS_Utils.GetCurrentCamera()
-- uid: OGS.Utils._3OGS_Utils.GetCurrentCamera*
-  name: GetCurrentCamera
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetCurrentCamera_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetCurrentCamera
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetCurrentCamera
-  nameWithType: _3OGS_Utils.GetCurrentCamera
-- uid: OGS.Utils._3OGS_Utils.GetDeafultEmptyObject
-  name: GetDeafultEmptyObject()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDeafultEmptyObject
-  commentId: M:OGS.Utils._3OGS_Utils.GetDeafultEmptyObject
-  fullName: OGS.Utils._3OGS_Utils.GetDeafultEmptyObject()
-  nameWithType: _3OGS_Utils.GetDeafultEmptyObject()
-- uid: OGS.Utils._3OGS_Utils.GetDeafultEmptyObject*
-  name: GetDeafultEmptyObject
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDeafultEmptyObject_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetDeafultEmptyObject
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetDeafultEmptyObject
-  nameWithType: _3OGS_Utils.GetDeafultEmptyObject
-- uid: OGS.Utils._3OGS_Utils.GetDefaultButtonColor
-  name: GetDefaultButtonColor()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultButtonColor
-  commentId: M:OGS.Utils._3OGS_Utils.GetDefaultButtonColor
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultButtonColor()
-  nameWithType: _3OGS_Utils.GetDefaultButtonColor()
-- uid: OGS.Utils._3OGS_Utils.GetDefaultButtonColor*
-  name: GetDefaultButtonColor
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultButtonColor_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetDefaultButtonColor
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultButtonColor
-  nameWithType: _3OGS_Utils.GetDefaultButtonColor
-- uid: OGS.Utils._3OGS_Utils.GetDefaultFont
-  name: GetDefaultFont()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultFont
-  commentId: M:OGS.Utils._3OGS_Utils.GetDefaultFont
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultFont()
-  nameWithType: _3OGS_Utils.GetDefaultFont()
-- uid: OGS.Utils._3OGS_Utils.GetDefaultFont*
-  name: GetDefaultFont
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultFont_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetDefaultFont
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultFont
-  nameWithType: _3OGS_Utils.GetDefaultFont
-- uid: OGS.Utils._3OGS_Utils.GetDefaultSquareSprite
-  name: GetDefaultSquareSprite()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultSquareSprite
-  commentId: M:OGS.Utils._3OGS_Utils.GetDefaultSquareSprite
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultSquareSprite()
-  nameWithType: _3OGS_Utils.GetDefaultSquareSprite()
-- uid: OGS.Utils._3OGS_Utils.GetDefaultSquareSprite*
-  name: GetDefaultSquareSprite
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetDefaultSquareSprite_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetDefaultSquareSprite
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetDefaultSquareSprite
-  nameWithType: _3OGS_Utils.GetDefaultSquareSprite
-- uid: OGS.Utils._3OGS_Utils.GetFontSize
-  name: GetFontSize()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetFontSize
-  commentId: M:OGS.Utils._3OGS_Utils.GetFontSize
-  fullName: OGS.Utils._3OGS_Utils.GetFontSize()
-  nameWithType: _3OGS_Utils.GetFontSize()
-- uid: OGS.Utils._3OGS_Utils.GetFontSize*
-  name: GetFontSize
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetFontSize_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetFontSize
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetFontSize
-  nameWithType: _3OGS_Utils.GetFontSize
-- uid: OGS.Utils._3OGS_Utils.GetMousePosition
-  name: GetMousePosition()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMousePosition
-  commentId: M:OGS.Utils._3OGS_Utils.GetMousePosition
-  fullName: OGS.Utils._3OGS_Utils.GetMousePosition()
-  nameWithType: _3OGS_Utils.GetMousePosition()
-- uid: OGS.Utils._3OGS_Utils.GetMousePosition*
-  name: GetMousePosition
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMousePosition_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetMousePosition
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetMousePosition
-  nameWithType: _3OGS_Utils.GetMousePosition
-- uid: OGS.Utils._3OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3,UnityEngine.Camera)
-  name: GetMouseWorldPosition(Vector3, Camera)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMouseWorldPosition_UnityEngine_Vector3_UnityEngine_Camera_
-  commentId: M:OGS.Utils._3OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3,UnityEngine.Camera)
-  fullName: OGS.Utils._3OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3, UnityEngine.Camera)
-  nameWithType: _3OGS_Utils.GetMouseWorldPosition(Vector3, Camera)
-- uid: OGS.Utils._3OGS_Utils.GetMouseWorldPosition*
-  name: GetMouseWorldPosition
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMouseWorldPosition_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetMouseWorldPosition
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetMouseWorldPosition
-  nameWithType: _3OGS_Utils.GetMouseWorldPosition
-- uid: OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ
-  name: GetMouseWorldPositionWithZ()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMouseWorldPositionWithZ
-  commentId: M:OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ
-  fullName: OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ()
-  nameWithType: _3OGS_Utils.GetMouseWorldPositionWithZ()
-- uid: OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ*
-  name: GetMouseWorldPositionWithZ
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetMouseWorldPositionWithZ_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetMouseWorldPositionWithZ
-  nameWithType: _3OGS_Utils.GetMouseWorldPositionWithZ
-- uid: OGS.Utils._3OGS_Utils.GetSettings
-  name: GetSettings()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetSettings
-  commentId: M:OGS.Utils._3OGS_Utils.GetSettings
-  fullName: OGS.Utils._3OGS_Utils.GetSettings()
-  nameWithType: _3OGS_Utils.GetSettings()
-- uid: OGS.Utils._3OGS_Utils.GetSettings*
-  name: GetSettings
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetSettings_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetSettings
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetSettings
-  nameWithType: _3OGS_Utils.GetSettings
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single)
-  name: GetStringFromColor(Single, Single, Single)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColor_System_Single_System_Single_System_Single_
-  commentId: M:OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single)
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single, System.Single, System.Single)
-  nameWithType: _3OGS_Utils.GetStringFromColor(Single, Single, Single)
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single,System.Single)
-  name: GetStringFromColor(Single, Single, Single, Single)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColor_System_Single_System_Single_System_Single_System_Single_
-  commentId: M:OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single,System.Single)
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColor(System.Single, System.Single, System.Single, System.Single)
-  nameWithType: _3OGS_Utils.GetStringFromColor(Single, Single, Single, Single)
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color)
-  name: GetStringFromColor(Color)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColor_UnityEngine_Color_
-  commentId: M:OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color)
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color)
-  nameWithType: _3OGS_Utils.GetStringFromColor(Color)
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color,System.String@,System.String@,System.String@,System.String@)
-  name: GetStringFromColor(Color, out String, out String, out String, out String)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColor_UnityEngine_Color_System_String__System_String__System_String__System_String__
-  commentId: M:OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color,System.String@,System.String@,System.String@,System.String@)
-  name.vb: GetStringFromColor(Color, ByRef String, ByRef String, ByRef String, ByRef String)
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color, out System.String, out System.String, out System.String, out System.String)
-  fullName.vb: OGS.Utils._3OGS_Utils.GetStringFromColor(UnityEngine.Color, ByRef System.String, ByRef System.String, ByRef System.String, ByRef System.String)
-  nameWithType: _3OGS_Utils.GetStringFromColor(Color, out String, out String, out String, out String)
-  nameWithType.vb: _3OGS_Utils.GetStringFromColor(Color, ByRef String, ByRef String, ByRef String, ByRef String)
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColor*
-  name: GetStringFromColor
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColor_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetStringFromColor
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColor
-  nameWithType: _3OGS_Utils.GetStringFromColor
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
-  name: GetStringFromColorWithAlpha(Color)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColorWithAlpha_UnityEngine_Color_
-  commentId: M:OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
-  nameWithType: _3OGS_Utils.GetStringFromColorWithAlpha(Color)
-- uid: OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha*
-  name: GetStringFromColorWithAlpha
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_GetStringFromColorWithAlpha_
-  commentId: Overload:OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.GetStringFromColorWithAlpha
-  nameWithType: _3OGS_Utils.GetStringFromColorWithAlpha
-- uid: OGS.Utils._3OGS_Utils.Hex_to_Dec(System.String)
-  name: Hex_to_Dec(String)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Hex_to_Dec_System_String_
-  commentId: M:OGS.Utils._3OGS_Utils.Hex_to_Dec(System.String)
-  fullName: OGS.Utils._3OGS_Utils.Hex_to_Dec(System.String)
-  nameWithType: _3OGS_Utils.Hex_to_Dec(String)
-- uid: OGS.Utils._3OGS_Utils.Hex_to_Dec*
-  name: Hex_to_Dec
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Hex_to_Dec_
-  commentId: Overload:OGS.Utils._3OGS_Utils.Hex_to_Dec
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.Hex_to_Dec
-  nameWithType: _3OGS_Utils.Hex_to_Dec
-- uid: OGS.Utils._3OGS_Utils.Hex_to_Dec01(System.String)
-  name: Hex_to_Dec01(String)
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Hex_to_Dec01_System_String_
-  commentId: M:OGS.Utils._3OGS_Utils.Hex_to_Dec01(System.String)
-  fullName: OGS.Utils._3OGS_Utils.Hex_to_Dec01(System.String)
-  nameWithType: _3OGS_Utils.Hex_to_Dec01(String)
-- uid: OGS.Utils._3OGS_Utils.Hex_to_Dec01*
-  name: Hex_to_Dec01
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_Hex_to_Dec01_
-  commentId: Overload:OGS.Utils._3OGS_Utils.Hex_to_Dec01
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.Hex_to_Dec01
-  nameWithType: _3OGS_Utils.Hex_to_Dec01
-- uid: OGS.Utils._3OGS_Utils.IsBuildForProduction
-  name: IsBuildForProduction()
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_IsBuildForProduction
-  commentId: M:OGS.Utils._3OGS_Utils.IsBuildForProduction
-  fullName: OGS.Utils._3OGS_Utils.IsBuildForProduction()
-  nameWithType: _3OGS_Utils.IsBuildForProduction()
-- uid: OGS.Utils._3OGS_Utils.IsBuildForProduction*
-  name: IsBuildForProduction
-  href: api/OGS.Utils._3OGS_Utils.html#OGS_Utils__3OGS_Utils_IsBuildForProduction_
-  commentId: Overload:OGS.Utils._3OGS_Utils.IsBuildForProduction
-  isSpec: "True"
-  fullName: OGS.Utils._3OGS_Utils.IsBuildForProduction
-  nameWithType: _3OGS_Utils.IsBuildForProduction
 - uid: OGS.Utils.CameraSwitcher
   name: CameraSwitcher
   href: api/OGS.Utils.CameraSwitcher.html
@@ -1217,6 +852,371 @@ references:
   isSpec: "True"
   fullName: OGS.Utils.LookToCamera.SetRotateY
   nameWithType: LookToCamera.SetRotateY
+- uid: OGS.Utils.OGS_Utils
+  name: OGS_Utils
+  href: api/OGS.Utils.OGS_Utils.html
+  commentId: T:OGS.Utils.OGS_Utils
+  fullName: OGS.Utils.OGS_Utils
+  nameWithType: OGS_Utils
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode,System.Action)
+  name: CreateKeyCodeAction(KeyCode, Action)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeAction_UnityEngine_KeyCode_System_Action_
+  commentId: M:OGS.Utils.OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode,System.Action)
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeAction(UnityEngine.KeyCode, System.Action)
+  nameWithType: OGS_Utils.CreateKeyCodeAction(KeyCode, Action)
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeAction*
+  name: CreateKeyCodeAction
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeAction_
+  commentId: Overload:OGS.Utils.OGS_Utils.CreateKeyCodeAction
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeAction
+  nameWithType: OGS_Utils.CreateKeyCodeAction
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode,System.Action)
+  name: CreateKeyCodeDownAction(KeyCode, Action)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeDownAction_UnityEngine_KeyCode_System_Action_
+  commentId: M:OGS.Utils.OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode,System.Action)
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeDownAction(UnityEngine.KeyCode, System.Action)
+  nameWithType: OGS_Utils.CreateKeyCodeDownAction(KeyCode, Action)
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeDownAction*
+  name: CreateKeyCodeDownAction
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeDownAction_
+  commentId: Overload:OGS.Utils.OGS_Utils.CreateKeyCodeDownAction
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeDownAction
+  nameWithType: OGS_Utils.CreateKeyCodeDownAction
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode,System.Action)
+  name: CreateKeyCodeUpAction(KeyCode, Action)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeUpAction_UnityEngine_KeyCode_System_Action_
+  commentId: M:OGS.Utils.OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode,System.Action)
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeUpAction(UnityEngine.KeyCode, System.Action)
+  nameWithType: OGS_Utils.CreateKeyCodeUpAction(KeyCode, Action)
+- uid: OGS.Utils.OGS_Utils.CreateKeyCodeUpAction*
+  name: CreateKeyCodeUpAction
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_CreateKeyCodeUpAction_
+  commentId: Overload:OGS.Utils.OGS_Utils.CreateKeyCodeUpAction
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.CreateKeyCodeUpAction
+  nameWithType: OGS_Utils.CreateKeyCodeUpAction
+- uid: OGS.Utils.OGS_Utils.Dec_to_Hex(System.Int32)
+  name: Dec_to_Hex(Int32)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Dec_to_Hex_System_Int32_
+  commentId: M:OGS.Utils.OGS_Utils.Dec_to_Hex(System.Int32)
+  fullName: OGS.Utils.OGS_Utils.Dec_to_Hex(System.Int32)
+  nameWithType: OGS_Utils.Dec_to_Hex(Int32)
+- uid: OGS.Utils.OGS_Utils.Dec_to_Hex*
+  name: Dec_to_Hex
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Dec_to_Hex_
+  commentId: Overload:OGS.Utils.OGS_Utils.Dec_to_Hex
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.Dec_to_Hex
+  nameWithType: OGS_Utils.Dec_to_Hex
+- uid: OGS.Utils.OGS_Utils.Dec01_to_Hex(System.Single)
+  name: Dec01_to_Hex(Single)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Dec01_to_Hex_System_Single_
+  commentId: M:OGS.Utils.OGS_Utils.Dec01_to_Hex(System.Single)
+  fullName: OGS.Utils.OGS_Utils.Dec01_to_Hex(System.Single)
+  nameWithType: OGS_Utils.Dec01_to_Hex(Single)
+- uid: OGS.Utils.OGS_Utils.Dec01_to_Hex*
+  name: Dec01_to_Hex
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Dec01_to_Hex_
+  commentId: Overload:OGS.Utils.OGS_Utils.Dec01_to_Hex
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.Dec01_to_Hex
+  nameWithType: OGS_Utils.Dec01_to_Hex
+- uid: OGS.Utils.OGS_Utils.GetButtonColorOnClick
+  name: GetButtonColorOnClick()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonColorOnClick
+  commentId: M:OGS.Utils.OGS_Utils.GetButtonColorOnClick
+  fullName: OGS.Utils.OGS_Utils.GetButtonColorOnClick()
+  nameWithType: OGS_Utils.GetButtonColorOnClick()
+- uid: OGS.Utils.OGS_Utils.GetButtonColorOnClick*
+  name: GetButtonColorOnClick
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonColorOnClick_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetButtonColorOnClick
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetButtonColorOnClick
+  nameWithType: OGS_Utils.GetButtonColorOnClick
+- uid: OGS.Utils.OGS_Utils.GetButtonColorOnOver
+  name: GetButtonColorOnOver()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonColorOnOver
+  commentId: M:OGS.Utils.OGS_Utils.GetButtonColorOnOver
+  fullName: OGS.Utils.OGS_Utils.GetButtonColorOnOver()
+  nameWithType: OGS_Utils.GetButtonColorOnOver()
+- uid: OGS.Utils.OGS_Utils.GetButtonColorOnOver*
+  name: GetButtonColorOnOver
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonColorOnOver_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetButtonColorOnOver
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetButtonColorOnOver
+  nameWithType: OGS_Utils.GetButtonColorOnOver
+- uid: OGS.Utils.OGS_Utils.GetButtonPanelOffset
+  name: GetButtonPanelOffset()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonPanelOffset
+  commentId: M:OGS.Utils.OGS_Utils.GetButtonPanelOffset
+  fullName: OGS.Utils.OGS_Utils.GetButtonPanelOffset()
+  nameWithType: OGS_Utils.GetButtonPanelOffset()
+- uid: OGS.Utils.OGS_Utils.GetButtonPanelOffset*
+  name: GetButtonPanelOffset
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonPanelOffset_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetButtonPanelOffset
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetButtonPanelOffset
+  nameWithType: OGS_Utils.GetButtonPanelOffset
+- uid: OGS.Utils.OGS_Utils.GetButtonSize
+  name: GetButtonSize()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonSize
+  commentId: M:OGS.Utils.OGS_Utils.GetButtonSize
+  fullName: OGS.Utils.OGS_Utils.GetButtonSize()
+  nameWithType: OGS_Utils.GetButtonSize()
+- uid: OGS.Utils.OGS_Utils.GetButtonSize*
+  name: GetButtonSize
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetButtonSize_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetButtonSize
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetButtonSize
+  nameWithType: OGS_Utils.GetButtonSize
+- uid: OGS.Utils.OGS_Utils.GetCanvasTransform
+  name: GetCanvasTransform()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetCanvasTransform
+  commentId: M:OGS.Utils.OGS_Utils.GetCanvasTransform
+  fullName: OGS.Utils.OGS_Utils.GetCanvasTransform()
+  nameWithType: OGS_Utils.GetCanvasTransform()
+- uid: OGS.Utils.OGS_Utils.GetCanvasTransform*
+  name: GetCanvasTransform
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetCanvasTransform_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetCanvasTransform
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetCanvasTransform
+  nameWithType: OGS_Utils.GetCanvasTransform
+- uid: OGS.Utils.OGS_Utils.GetColorFromString(System.String)
+  name: GetColorFromString(String)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetColorFromString_System_String_
+  commentId: M:OGS.Utils.OGS_Utils.GetColorFromString(System.String)
+  fullName: OGS.Utils.OGS_Utils.GetColorFromString(System.String)
+  nameWithType: OGS_Utils.GetColorFromString(String)
+- uid: OGS.Utils.OGS_Utils.GetColorFromString*
+  name: GetColorFromString
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetColorFromString_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetColorFromString
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetColorFromString
+  nameWithType: OGS_Utils.GetColorFromString
+- uid: OGS.Utils.OGS_Utils.GetCurrentCamera
+  name: GetCurrentCamera()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetCurrentCamera
+  commentId: M:OGS.Utils.OGS_Utils.GetCurrentCamera
+  fullName: OGS.Utils.OGS_Utils.GetCurrentCamera()
+  nameWithType: OGS_Utils.GetCurrentCamera()
+- uid: OGS.Utils.OGS_Utils.GetCurrentCamera*
+  name: GetCurrentCamera
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetCurrentCamera_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetCurrentCamera
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetCurrentCamera
+  nameWithType: OGS_Utils.GetCurrentCamera
+- uid: OGS.Utils.OGS_Utils.GetDeafultEmptyObject
+  name: GetDeafultEmptyObject()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDeafultEmptyObject
+  commentId: M:OGS.Utils.OGS_Utils.GetDeafultEmptyObject
+  fullName: OGS.Utils.OGS_Utils.GetDeafultEmptyObject()
+  nameWithType: OGS_Utils.GetDeafultEmptyObject()
+- uid: OGS.Utils.OGS_Utils.GetDeafultEmptyObject*
+  name: GetDeafultEmptyObject
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDeafultEmptyObject_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetDeafultEmptyObject
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetDeafultEmptyObject
+  nameWithType: OGS_Utils.GetDeafultEmptyObject
+- uid: OGS.Utils.OGS_Utils.GetDefaultButtonColor
+  name: GetDefaultButtonColor()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultButtonColor
+  commentId: M:OGS.Utils.OGS_Utils.GetDefaultButtonColor
+  fullName: OGS.Utils.OGS_Utils.GetDefaultButtonColor()
+  nameWithType: OGS_Utils.GetDefaultButtonColor()
+- uid: OGS.Utils.OGS_Utils.GetDefaultButtonColor*
+  name: GetDefaultButtonColor
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultButtonColor_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetDefaultButtonColor
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetDefaultButtonColor
+  nameWithType: OGS_Utils.GetDefaultButtonColor
+- uid: OGS.Utils.OGS_Utils.GetDefaultFont
+  name: GetDefaultFont()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultFont
+  commentId: M:OGS.Utils.OGS_Utils.GetDefaultFont
+  fullName: OGS.Utils.OGS_Utils.GetDefaultFont()
+  nameWithType: OGS_Utils.GetDefaultFont()
+- uid: OGS.Utils.OGS_Utils.GetDefaultFont*
+  name: GetDefaultFont
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultFont_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetDefaultFont
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetDefaultFont
+  nameWithType: OGS_Utils.GetDefaultFont
+- uid: OGS.Utils.OGS_Utils.GetDefaultSquareSprite
+  name: GetDefaultSquareSprite()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultSquareSprite
+  commentId: M:OGS.Utils.OGS_Utils.GetDefaultSquareSprite
+  fullName: OGS.Utils.OGS_Utils.GetDefaultSquareSprite()
+  nameWithType: OGS_Utils.GetDefaultSquareSprite()
+- uid: OGS.Utils.OGS_Utils.GetDefaultSquareSprite*
+  name: GetDefaultSquareSprite
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetDefaultSquareSprite_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetDefaultSquareSprite
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetDefaultSquareSprite
+  nameWithType: OGS_Utils.GetDefaultSquareSprite
+- uid: OGS.Utils.OGS_Utils.GetFontSize
+  name: GetFontSize()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetFontSize
+  commentId: M:OGS.Utils.OGS_Utils.GetFontSize
+  fullName: OGS.Utils.OGS_Utils.GetFontSize()
+  nameWithType: OGS_Utils.GetFontSize()
+- uid: OGS.Utils.OGS_Utils.GetFontSize*
+  name: GetFontSize
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetFontSize_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetFontSize
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetFontSize
+  nameWithType: OGS_Utils.GetFontSize
+- uid: OGS.Utils.OGS_Utils.GetMousePosition
+  name: GetMousePosition()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMousePosition
+  commentId: M:OGS.Utils.OGS_Utils.GetMousePosition
+  fullName: OGS.Utils.OGS_Utils.GetMousePosition()
+  nameWithType: OGS_Utils.GetMousePosition()
+- uid: OGS.Utils.OGS_Utils.GetMousePosition*
+  name: GetMousePosition
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMousePosition_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetMousePosition
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetMousePosition
+  nameWithType: OGS_Utils.GetMousePosition
+- uid: OGS.Utils.OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3,UnityEngine.Camera)
+  name: GetMouseWorldPosition(Vector3, Camera)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMouseWorldPosition_UnityEngine_Vector3_UnityEngine_Camera_
+  commentId: M:OGS.Utils.OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3,UnityEngine.Camera)
+  fullName: OGS.Utils.OGS_Utils.GetMouseWorldPosition(UnityEngine.Vector3, UnityEngine.Camera)
+  nameWithType: OGS_Utils.GetMouseWorldPosition(Vector3, Camera)
+- uid: OGS.Utils.OGS_Utils.GetMouseWorldPosition*
+  name: GetMouseWorldPosition
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMouseWorldPosition_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetMouseWorldPosition
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetMouseWorldPosition
+  nameWithType: OGS_Utils.GetMouseWorldPosition
+- uid: OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ
+  name: GetMouseWorldPositionWithZ()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMouseWorldPositionWithZ
+  commentId: M:OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ
+  fullName: OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ()
+  nameWithType: OGS_Utils.GetMouseWorldPositionWithZ()
+- uid: OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ*
+  name: GetMouseWorldPositionWithZ
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetMouseWorldPositionWithZ_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetMouseWorldPositionWithZ
+  nameWithType: OGS_Utils.GetMouseWorldPositionWithZ
+- uid: OGS.Utils.OGS_Utils.GetSettings
+  name: GetSettings()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetSettings
+  commentId: M:OGS.Utils.OGS_Utils.GetSettings
+  fullName: OGS.Utils.OGS_Utils.GetSettings()
+  nameWithType: OGS_Utils.GetSettings()
+- uid: OGS.Utils.OGS_Utils.GetSettings*
+  name: GetSettings
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetSettings_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetSettings
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetSettings
+  nameWithType: OGS_Utils.GetSettings
+- uid: OGS.Utils.OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single)
+  name: GetStringFromColor(Single, Single, Single)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColor_System_Single_System_Single_System_Single_
+  commentId: M:OGS.Utils.OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single)
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColor(System.Single, System.Single, System.Single)
+  nameWithType: OGS_Utils.GetStringFromColor(Single, Single, Single)
+- uid: OGS.Utils.OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single,System.Single)
+  name: GetStringFromColor(Single, Single, Single, Single)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColor_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:OGS.Utils.OGS_Utils.GetStringFromColor(System.Single,System.Single,System.Single,System.Single)
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColor(System.Single, System.Single, System.Single, System.Single)
+  nameWithType: OGS_Utils.GetStringFromColor(Single, Single, Single, Single)
+- uid: OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color)
+  name: GetStringFromColor(Color)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColor_UnityEngine_Color_
+  commentId: M:OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color)
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color)
+  nameWithType: OGS_Utils.GetStringFromColor(Color)
+- uid: OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color,System.String@,System.String@,System.String@,System.String@)
+  name: GetStringFromColor(Color, out String, out String, out String, out String)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColor_UnityEngine_Color_System_String__System_String__System_String__System_String__
+  commentId: M:OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color,System.String@,System.String@,System.String@,System.String@)
+  name.vb: GetStringFromColor(Color, ByRef String, ByRef String, ByRef String, ByRef String)
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color, out System.String, out System.String, out System.String, out System.String)
+  fullName.vb: OGS.Utils.OGS_Utils.GetStringFromColor(UnityEngine.Color, ByRef System.String, ByRef System.String, ByRef System.String, ByRef System.String)
+  nameWithType: OGS_Utils.GetStringFromColor(Color, out String, out String, out String, out String)
+  nameWithType.vb: OGS_Utils.GetStringFromColor(Color, ByRef String, ByRef String, ByRef String, ByRef String)
+- uid: OGS.Utils.OGS_Utils.GetStringFromColor*
+  name: GetStringFromColor
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColor_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetStringFromColor
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColor
+  nameWithType: OGS_Utils.GetStringFromColor
+- uid: OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
+  name: GetStringFromColorWithAlpha(Color)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColorWithAlpha_UnityEngine_Color_
+  commentId: M:OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha(UnityEngine.Color)
+  nameWithType: OGS_Utils.GetStringFromColorWithAlpha(Color)
+- uid: OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha*
+  name: GetStringFromColorWithAlpha
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_GetStringFromColorWithAlpha_
+  commentId: Overload:OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.GetStringFromColorWithAlpha
+  nameWithType: OGS_Utils.GetStringFromColorWithAlpha
+- uid: OGS.Utils.OGS_Utils.Hex_to_Dec(System.String)
+  name: Hex_to_Dec(String)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Hex_to_Dec_System_String_
+  commentId: M:OGS.Utils.OGS_Utils.Hex_to_Dec(System.String)
+  fullName: OGS.Utils.OGS_Utils.Hex_to_Dec(System.String)
+  nameWithType: OGS_Utils.Hex_to_Dec(String)
+- uid: OGS.Utils.OGS_Utils.Hex_to_Dec*
+  name: Hex_to_Dec
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Hex_to_Dec_
+  commentId: Overload:OGS.Utils.OGS_Utils.Hex_to_Dec
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.Hex_to_Dec
+  nameWithType: OGS_Utils.Hex_to_Dec
+- uid: OGS.Utils.OGS_Utils.Hex_to_Dec01(System.String)
+  name: Hex_to_Dec01(String)
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Hex_to_Dec01_System_String_
+  commentId: M:OGS.Utils.OGS_Utils.Hex_to_Dec01(System.String)
+  fullName: OGS.Utils.OGS_Utils.Hex_to_Dec01(System.String)
+  nameWithType: OGS_Utils.Hex_to_Dec01(String)
+- uid: OGS.Utils.OGS_Utils.Hex_to_Dec01*
+  name: Hex_to_Dec01
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_Hex_to_Dec01_
+  commentId: Overload:OGS.Utils.OGS_Utils.Hex_to_Dec01
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.Hex_to_Dec01
+  nameWithType: OGS_Utils.Hex_to_Dec01
+- uid: OGS.Utils.OGS_Utils.IsBuildForProduction
+  name: IsBuildForProduction()
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_IsBuildForProduction
+  commentId: M:OGS.Utils.OGS_Utils.IsBuildForProduction
+  fullName: OGS.Utils.OGS_Utils.IsBuildForProduction()
+  nameWithType: OGS_Utils.IsBuildForProduction()
+- uid: OGS.Utils.OGS_Utils.IsBuildForProduction*
+  name: IsBuildForProduction
+  href: api/OGS.Utils.OGS_Utils.html#OGS_Utils_OGS_Utils_IsBuildForProduction_
+  commentId: Overload:OGS.Utils.OGS_Utils.IsBuildForProduction
+  isSpec: "True"
+  fullName: OGS.Utils.OGS_Utils.IsBuildForProduction
+  nameWithType: OGS_Utils.IsBuildForProduction
 - uid: OGS.Utils.World_Sprite
   name: World_Sprite
   href: api/OGS.Utils.World_Sprite.html

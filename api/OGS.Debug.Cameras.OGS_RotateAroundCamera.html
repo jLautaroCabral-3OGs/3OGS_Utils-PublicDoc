@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DebugButtonPanel
+    <title>Class OGS_RotateAroundCamera
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DebugButtonPanel
+    <meta name="title" content="Class OGS_RotateAroundCamera
    ">
     <meta name="generator" content="docfx 2.59.0.0">
     
@@ -68,12 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="OGS.Debug.DebugButtonPanel">
+            <article class="content wrap" id="_content" data-uid="OGS.Debug.Cameras.OGS_RotateAroundCamera">
   
   
-  <h1 id="OGS_Debug_DebugButtonPanel" data-uid="OGS.Debug.DebugButtonPanel" class="text-break">Class DebugButtonPanel
+  <h1 id="OGS_Debug_Cameras_OGS_RotateAroundCamera" data-uid="OGS.Debug.Cameras.OGS_RotateAroundCamera" class="text-break">Class OGS_RotateAroundCamera
   </h1>
-  <div class="markdown level0 summary"><p>A DebugButtonPanel is a component used to contain and accommodate the DebugButtons associated with it.</p>
+  <div class="markdown level0 summary"><p>A camera that follows a target and can rotate around it, always looking at it.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -83,7 +83,7 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">DebugButtonPanel</span></div>
+    <div class="level5"><span class="xref">OGS_RotateAroundCamera</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -373,29 +373,34 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="OGS.Debug.html">OGS.Debug</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="OGS.Debug.Cameras.html">OGS.Debug.Cameras</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
-  <h5 id="OGS_Debug_DebugButtonPanel_syntax">Syntax</h5>
+  <h5 id="OGS_Debug_Cameras_OGS_RotateAroundCamera_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DebugButtonPanel : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class OGS_RotateAroundCamera : MonoBehaviour</code></pre>
   </div>
+  <h5 id="OGS_Debug_Cameras_OGS_RotateAroundCamera_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>To rotate the camera you use the middle mouse button.
+Use the wheel to zoom.
+You can hold right click to show the cursor so you can left click freely, to press DebugButtons, for example.</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=OGS_Debug_DebugButtonPanel_AddButton_OGS_Debug_DebugButtonPanel_System_String_System_Action_.md&amp;value=---%0Auid%3A%20OGS.Debug.DebugButtonPanel.AddButton(OGS.Debug.DebugButtonPanel%2CSystem.String%2CSystem.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=OGS_Debug_Cameras_OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/OGS_Utils/Debug/DebugButtonPanel.cs/#L53">View Source</a>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/OGS_Utils/Debug/Cameras/OGS_RotateAroundCamera.cs/#L136">View Source</a>
   </span>
-  <a id="OGS_Debug_DebugButtonPanel_AddButton_" data-uid="OGS.Debug.DebugButtonPanel.AddButton*"></a>
-  <h4 id="OGS_Debug_DebugButtonPanel_AddButton_OGS_Debug_DebugButtonPanel_System_String_System_Action_" data-uid="OGS.Debug.DebugButtonPanel.AddButton(OGS.Debug.DebugButtonPanel,System.String,System.Action)">AddButton(DebugButtonPanel, String, Action)</h4>
-  <div class="markdown level1 summary"><p>Instantiate and add to a DebugButtonPanel a new DebugButton that executes a function when clicked</p>
+  <a id="OGS_Debug_Cameras_OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_" data-uid="OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera*"></a>
+  <h4 id="OGS_Debug_Cameras_OGS_RotateAroundCamera_CreateRotateAroundToTargetCamera_UnityEngine_Transform_" data-uid="OGS.Debug.Cameras.OGS_RotateAroundCamera.CreateRotateAroundToTargetCamera(UnityEngine.Transform)">CreateRotateAroundToTargetCamera(Transform)</h4>
+  <div class="markdown level1 summary"><p>Create a RotateArounTarget camera on the <code data-dev-comment-type="paramref" class="paramref">target</code></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObject AddButton(DebugButtonPanel btnPanel, string btnLabel, Action onClickFunction)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Camera CreateRotateAroundToTargetCamera(Transform target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -408,21 +413,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="OGS.Debug.DebugButtonPanel.html">DebugButtonPanel</a></td>
-        <td><span class="parametername">btnPanel</span></td>
-        <td><p>Debug button panel to add the new button</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">btnLabel</span></td>
-        <td><p>The label of the new button</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span></td>
-        <td><span class="parametername">onClickFunction</span></td>
-        <td><p>The method executed when click button</p>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>Target to follow and position to spawn the camera</p>
 </td>
       </tr>
     </tbody>
@@ -437,70 +430,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEngine.GameObject</span></td>
-        <td><p>The new DebugButton gameobject</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=OGS_Debug_DebugButtonPanel_AddButtonWithMessage_OGS_Debug_DebugButtonPanel_System_String_System_String_.md&amp;value=---%0Auid%3A%20OGS.Debug.DebugButtonPanel.AddButtonWithMessage(OGS.Debug.DebugButtonPanel%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/OGS_Utils/Debug/DebugButtonPanel.cs/#L27">View Source</a>
-  </span>
-  <a id="OGS_Debug_DebugButtonPanel_AddButtonWithMessage_" data-uid="OGS.Debug.DebugButtonPanel.AddButtonWithMessage*"></a>
-  <h4 id="OGS_Debug_DebugButtonPanel_AddButtonWithMessage_OGS_Debug_DebugButtonPanel_System_String_System_String_" data-uid="OGS.Debug.DebugButtonPanel.AddButtonWithMessage(OGS.Debug.DebugButtonPanel,System.String,System.String)">AddButtonWithMessage(DebugButtonPanel, String, String)</h4>
-  <div class="markdown level1 summary"><p>Instantiate and add to a DebugButtonPanel a new DebugButton that instantiates to its right a TextPopup with a message when clicked.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameObject AddButtonWithMessage(DebugButtonPanel btnPanel, string btnLabel, string btnMessage)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="OGS.Debug.DebugButtonPanel.html">DebugButtonPanel</a></td>
-        <td><span class="parametername">btnPanel</span></td>
-        <td><p>Debug button panel to add the new button</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">btnLabel</span></td>
-        <td><p>The label of the new button</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">btnMessage</span></td>
-        <td><p>The message instatiated from the new button</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.GameObject</span></td>
-        <td><p>The new DebugButton gameobject</p>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td><p>The Camera component of the RotateAroundTarget gameobject</p>
 </td>
       </tr>
     </tbody>
@@ -513,10 +444,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=OGS_Debug_DebugButtonPanel.md&amp;value=---%0Auid%3A%20OGS.Debug.DebugButtonPanel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=OGS_Debug_Cameras_OGS_RotateAroundCamera.md&amp;value=---%0Auid%3A%20OGS.Debug.Cameras.OGS_RotateAroundCamera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/OGS_Utils/Debug/DebugButtonPanel.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/OGS_Utils/Debug/Cameras/OGS_RotateAroundCamera.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
