@@ -1,0 +1,914 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FunctionUpdater
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FunctionUpdater
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="_3OGS.Utils.FunctionUpdater">
+  
+  
+  <h1 id="_3OGS_Utils_FunctionUpdater" data-uid="_3OGS.Utils.FunctionUpdater" class="text-break">Class FunctionUpdater
+  </h1>
+  <div class="markdown level0 summary"><p>Utility class that executes a function once per frame</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">FunctionUpdater</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="_3OGS.Utils.html">_3OGS.Utils</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="_3OGS_Utils_FunctionUpdater_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FunctionUpdater : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Create_System_Action_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Create(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L46">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Create_" data-uid="_3OGS.Utils.FunctionUpdater.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Create_System_Action_" data-uid="_3OGS.Utils.FunctionUpdater.Create(System.Action)">Create(Action)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> once per frame, like <code>MonoBehaviour.Update</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionUpdater Create(Action updateFunc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Create(System.Func%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L56">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Create_" data-uid="_3OGS.Utils.FunctionUpdater.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__" data-uid="_3OGS.Utils.FunctionUpdater.Create(System.Func{System.Boolean})">Create(Func&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> once per frame, like <code>MonoBehaviour.Update</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionUpdater Create(Func&lt;bool&gt; updateFunc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>The Action to be executed, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Create(System.Func%7BSystem.Boolean%7D%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L67">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Create_" data-uid="_3OGS.Utils.FunctionUpdater.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_" data-uid="_3OGS.Utils.FunctionUpdater.Create(System.Func{System.Boolean},System.String)">Create(Func&lt;Boolean&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> once per frame called <code data-dev-comment-type="paramref" class="paramref">functionName</code> , like <code>MonoBehaviour.Update</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionUpdater Create(Func&lt;bool&gt; updateFunc, string functionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>The Action to be executed, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function updater name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Create(System.Func%7BSystem.Boolean%7D%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L79">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Create_" data-uid="_3OGS.Utils.FunctionUpdater.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_System_Boolean_" data-uid="_3OGS.Utils.FunctionUpdater.Create(System.Func{System.Boolean},System.String,System.Boolean)">Create(Func&lt;Boolean&gt;, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> once per frame called <code data-dev-comment-type="paramref" class="paramref">functionName</code> , like <code>MonoBehaviour.Update</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionUpdater Create(Func&lt;bool&gt; updateFunc, string functionName, bool active)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>The Action to be executed, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function updater name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td><p>Set the function updater status, can be active or paused</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Create(System.Func%7BSystem.Boolean%7D%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L92">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Create_" data-uid="_3OGS.Utils.FunctionUpdater.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Create_System_Func_System_Boolean__System_String_System_Boolean_System_Boolean_" data-uid="_3OGS.Utils.FunctionUpdater.Create(System.Func{System.Boolean},System.String,System.Boolean,System.Boolean)">Create(Func&lt;Boolean&gt;, String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> once per frame called <code data-dev-comment-type="paramref" class="paramref">functionName</code> , like <code>MonoBehaviour.Update</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionUpdater Create(Func&lt;bool&gt; updateFunc, string functionName, bool active, bool stopAllWithSameName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>The Action to be executed, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function updater name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td><p>Set the function updater status, can be active or paused</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">stopAllWithSameName</span></td>
+        <td><p>Stop all the function updater objects with the same name when <code data-dev-comment-type="paramref" class="paramref">updateFunc</code> returns true</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_DestroySelf.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.DestroySelf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L215">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_DestroySelf_" data-uid="_3OGS.Utils.FunctionUpdater.DestroySelf*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_DestroySelf" data-uid="_3OGS.Utils.FunctionUpdater.DestroySelf">DestroySelf()</h4>
+  <div class="markdown level1 summary"><p>Remove function updater and destroy the gameobject</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroySelf()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_DestroyUpdater__3OGS_Utils_FunctionUpdater_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.DestroyUpdater(_3OGS.Utils.FunctionUpdater)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L123">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_DestroyUpdater_" data-uid="_3OGS.Utils.FunctionUpdater.DestroyUpdater*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_DestroyUpdater__3OGS_Utils_FunctionUpdater_" data-uid="_3OGS.Utils.FunctionUpdater.DestroyUpdater(_3OGS.Utils.FunctionUpdater)">DestroyUpdater(FunctionUpdater)</h4>
+  <div class="markdown level1 summary"><p>Destroy a function updater</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DestroyUpdater(FunctionUpdater funcUpdater)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionUpdater.html">FunctionUpdater</a></td>
+        <td><span class="parametername">funcUpdater</span></td>
+        <td><p>Function updater to destroy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Pause.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L190">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Pause_" data-uid="_3OGS.Utils.FunctionUpdater.Pause*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Pause" data-uid="_3OGS.Utils.FunctionUpdater.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Set the active status to false</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_Resume.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L198">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_Resume_" data-uid="_3OGS.Utils.FunctionUpdater.Resume*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_Resume" data-uid="_3OGS.Utils.FunctionUpdater.Resume">Resume()</h4>
+  <div class="markdown level1 summary"><p>Set the active status to true</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_SetFuctionUpdaterData_UnityEngine_GameObject_System_Func_System_Boolean__System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.SetFuctionUpdaterData(UnityEngine.GameObject%2CSystem.Func%7BSystem.Boolean%7D%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L179">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_SetFuctionUpdaterData_" data-uid="_3OGS.Utils.FunctionUpdater.SetFuctionUpdaterData*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_SetFuctionUpdaterData_UnityEngine_GameObject_System_Func_System_Boolean__System_String_System_Boolean_" data-uid="_3OGS.Utils.FunctionUpdater.SetFuctionUpdaterData(UnityEngine.GameObject,System.Func{System.Boolean},System.String,System.Boolean)">SetFuctionUpdaterData(GameObject, Func&lt;Boolean&gt;, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Set the function updater data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetFuctionUpdaterData(GameObject gameObject, Func&lt;bool&gt; updateFunc, string functionName, bool active)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">gameObject</span></td>
+        <td><p>Function updater gameobject</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">updateFunc</span></td>
+        <td><p>Function updater funtion</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>Function updater name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">active</span></td>
+        <td><p>Function updater status</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_StopAllUpdatersWithName_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.StopAllUpdatersWithName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L153">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_StopAllUpdatersWithName_" data-uid="_3OGS.Utils.FunctionUpdater.StopAllUpdatersWithName*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_StopAllUpdatersWithName_System_String_" data-uid="_3OGS.Utils.FunctionUpdater.StopAllUpdatersWithName(System.String)">StopAllUpdatersWithName(String)</h4>
+  <div class="markdown level1 summary"><p>Stop and destroy all the function updater objects with the same name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopAllUpdatersWithName(string functionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>Function updater name to destroy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater_StopUpdaterWithName_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater.StopUpdaterWithName(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L136">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionUpdater_StopUpdaterWithName_" data-uid="_3OGS.Utils.FunctionUpdater.StopUpdaterWithName*"></a>
+  <h4 id="_3OGS_Utils_FunctionUpdater_StopUpdaterWithName_System_String_" data-uid="_3OGS.Utils.FunctionUpdater.StopUpdaterWithName(System.String)">StopUpdaterWithName(String)</h4>
+  <div class="markdown level1 summary"><p>Stop and destroy a function updater object filtered by name</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopUpdaterWithName(string functionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>Function updater name to destroy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionUpdater.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionUpdater%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionUpdater.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

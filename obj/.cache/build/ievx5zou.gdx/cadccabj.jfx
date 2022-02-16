@@ -1,0 +1,822 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class FunctionPeriodic
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class FunctionPeriodic
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="_3OGS.Utils.FunctionPeriodic">
+  
+  
+  <h1 id="_3OGS_Utils_FunctionPeriodic" data-uid="_3OGS.Utils.FunctionPeriodic" class="text-break">Class FunctionPeriodic
+  </h1>
+  <div class="markdown level0 summary"><p>Utility class that executes a function periodically every so often</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">FunctionPeriodic</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="_3OGS.Utils.html">_3OGS.Utils</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp-firstpass.dll</h6>
+  <h5 id="_3OGS_Utils_FunctionPeriodic_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class FunctionPeriodic</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic__action.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic._action%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L228">View Source</a>
+  </span>
+  <h4 id="_3OGS_Utils_FunctionPeriodic__action" data-uid="_3OGS.Utils.FunctionPeriodic._action">_action</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Action _action</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic__testDestroy.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic._testDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L229">View Source</a>
+  </span>
+  <h4 id="_3OGS_Utils_FunctionPeriodic__testDestroy" data-uid="_3OGS.Utils.FunctionPeriodic._testDestroy">_testDestroy</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;bool&gt; _testDestroy</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create(System.Action%2CSystem.Func%7BSystem.Boolean%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L65">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_" data-uid="_3OGS.Utils.FunctionPeriodic.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_" data-uid="_3OGS.Utils.FunctionPeriodic.Create(System.Action,System.Func{System.Boolean},System.Single)">Create(Action, Func&lt;Boolean&gt;, Single)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">action</code> every <code data-dev-comment-type="paramref" class="paramref">timer</code>, execute <code data-dev-comment-type="paramref" class="paramref">testDestroy</code> after triggering action, destroy if returns <code>true</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create(Action action, Func&lt;bool&gt; testDestroy, float timer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">testDestroy</span></td>
+        <td><p>The function that will evaluate if the loop is still running, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create(System.Action%2CSystem.Func%7BSystem.Boolean%7D%2CSystem.Single%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L102">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_" data-uid="_3OGS.Utils.FunctionPeriodic.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_System_String_System_Boolean_" data-uid="_3OGS.Utils.FunctionPeriodic.Create(System.Action,System.Func{System.Boolean},System.Single,System.String,System.Boolean)">Create(Action, Func&lt;Boolean&gt;, Single, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">callback</code> every <code data-dev-comment-type="paramref" class="paramref">timer</code> called <code data-dev-comment-type="paramref" class="paramref">functionName</code>, execute <code data-dev-comment-type="paramref" class="paramref">testDestroy</code> after triggering action, destroy if returns <code>true</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create(Action callback, Func&lt;bool&gt; testDestroy, float timer, string functionName, bool stopAllWithSameName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">testDestroy</span></td>
+        <td><p>The function that will evaluate if the loop is still running, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function periodic name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">stopAllWithSameName</span></td>
+        <td><p>Stop all the function periodic objects with the same name when <code data-dev-comment-type="paramref" class="paramref">testDestroy</code> returns true</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_System_String_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create(System.Action%2CSystem.Func%7BSystem.Boolean%7D%2CSystem.Single%2CSystem.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L118">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_" data-uid="_3OGS.Utils.FunctionPeriodic.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Func_System_Boolean__System_Single_System_String_System_Boolean_System_Boolean_System_Boolean_" data-uid="_3OGS.Utils.FunctionPeriodic.Create(System.Action,System.Func{System.Boolean},System.Single,System.String,System.Boolean,System.Boolean,System.Boolean)">Create(Action, Func&lt;Boolean&gt;, Single, String, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">callback</code> every <code data-dev-comment-type="paramref" class="paramref">timer</code> called <code data-dev-comment-type="paramref" class="paramref">functionName</code>, execute <code data-dev-comment-type="paramref" class="paramref">testDestroy</code> after triggering action, destroy if returns <code>true</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create(Action action, Func&lt;bool&gt; testDestroy, float timer, string functionName, bool useUnscaledDeltaTime, bool triggerImmediately, bool stopAllWithSameName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">testDestroy</span></td>
+        <td><p>The function that will evaluate if the loop is still running, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function periodic name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useUnscaledDeltaTime</span></td>
+        <td><p>The timer will be use unscaledDeltaTime</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">triggerImmediately</span></td>
+        <td><p>Immediately executes the function when created</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">stopAllWithSameName</span></td>
+        <td><p>Stop all the function periodic objects with the same name when <code data-dev-comment-type="paramref" class="paramref">testDestroy</code> returns true</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Single_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create(System.Action%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L76">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_" data-uid="_3OGS.Utils.FunctionPeriodic.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Single_" data-uid="_3OGS.Utils.FunctionPeriodic.Create(System.Action,System.Single)">Create(Action, Single)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">action</code> every <code data-dev-comment-type="paramref" class="paramref">timer</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create(Action action, float timer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Single_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create(System.Action%2CSystem.Single%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L88">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_" data-uid="_3OGS.Utils.FunctionPeriodic.Create*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_System_Action_System_Single_System_String_" data-uid="_3OGS.Utils.FunctionPeriodic.Create(System.Action,System.Single,System.String)">Create(Action, Single, String)</h4>
+  <div class="markdown level1 summary"><p>Trigger <code data-dev-comment-type="paramref" class="paramref">action</code> every <code data-dev-comment-type="paramref" class="paramref">timer</code> called <code data-dev-comment-type="paramref" class="paramref">functionName</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create(Action action, float timer, string functionName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">functionName</span></td>
+        <td><p>The function periodic name</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_Create_Global_System_Action_System_Func_System_Boolean__System_Single_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.Create_Global(System.Action%2CSystem.Func%7BSystem.Boolean%7D%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L50">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_Create_Global_" data-uid="_3OGS.Utils.FunctionPeriodic.Create_Global*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_Create_Global_System_Action_System_Func_System_Boolean__System_Single_" data-uid="_3OGS.Utils.FunctionPeriodic.Create_Global(System.Action,System.Func{System.Boolean},System.Single)">Create_Global(Action, Func&lt;Boolean&gt;, Single)</h4>
+  <div class="markdown level1 summary"><p>Create a function periodic that persists across scene loads</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static FunctionPeriodic Create_Global(Action action, Func&lt;bool&gt; testDestroy, float timer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The Action to be executed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">testDestroy</span></td>
+        <td><p>The function that will evaluate if the loop is still running, if it returns true then the loop will be terminated</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Delay between the execution of <code data-dev-comment-type="paramref" class="paramref">action</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><p>The FunctionUpdater object containing the Action</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_DestroySelf.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.DestroySelf%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L214">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_DestroySelf_" data-uid="_3OGS.Utils.FunctionPeriodic.DestroySelf*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_DestroySelf" data-uid="_3OGS.Utils.FunctionPeriodic.DestroySelf">DestroySelf()</h4>
+  <div class="markdown level1 summary"><p>Remove function periodic and destroy the gameobject</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DestroySelf()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_IsFuncActive_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.IsFuncActive(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L189">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_IsFuncActive_" data-uid="_3OGS.Utils.FunctionPeriodic.IsFuncActive*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_IsFuncActive_System_String_" data-uid="_3OGS.Utils.FunctionPeriodic.IsFuncActive(System.String)">IsFuncActive(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the status of a function periodic object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsFuncActive(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the function periodic</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><code>true</code> if the function is active</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_RemoveTimer__3OGS_Utils_FunctionPeriodic_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.RemoveTimer(_3OGS.Utils.FunctionPeriodic)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L144">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_RemoveTimer_" data-uid="_3OGS.Utils.FunctionPeriodic.RemoveTimer*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_RemoveTimer__3OGS_Utils_FunctionPeriodic_" data-uid="_3OGS.Utils.FunctionPeriodic.RemoveTimer(_3OGS.Utils.FunctionPeriodic)">RemoveTimer(FunctionPeriodic)</h4>
+  <div class="markdown level1 summary"><p>Use this function to remove the function periodic of the function periodic cached list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveTimer(FunctionPeriodic funcTimer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="_3OGS.Utils.FunctionPeriodic.html">FunctionPeriodic</a></td>
+        <td><span class="parametername">funcTimer</span></td>
+        <td><p>Function periodic to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_SkipTimerTo_System_Single_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.SkipTimerTo(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L206">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_SkipTimerTo_" data-uid="_3OGS.Utils.FunctionPeriodic.SkipTimerTo*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_SkipTimerTo_System_Single_" data-uid="_3OGS.Utils.FunctionPeriodic.SkipTimerTo(System.Single)">SkipTimerTo(Single)</h4>
+  <div class="markdown level1 summary"><p>Set a new timer for the function periodic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SkipTimerTo(float timer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">timer</span></td>
+        <td><p>Time to trigger</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_StopAllFunc_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.StopAllFunc(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L171">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_StopAllFunc_" data-uid="_3OGS.Utils.FunctionPeriodic.StopAllFunc*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_StopAllFunc_System_String_" data-uid="_3OGS.Utils.FunctionPeriodic.StopAllFunc(System.String)">StopAllFunc(String)</h4>
+  <div class="markdown level1 summary"><p>Stop all the function periodic objects with the same name in the runtime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopAllFunc(string _name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">_name</span></td>
+        <td><p>Function periodic name to stop</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic_StopTimer_System_String_.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic.StopTimer(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L154">View Source</a>
+  </span>
+  <a id="_3OGS_Utils_FunctionPeriodic_StopTimer_" data-uid="_3OGS.Utils.FunctionPeriodic.StopTimer*"></a>
+  <h4 id="_3OGS_Utils_FunctionPeriodic_StopTimer_System_String_" data-uid="_3OGS.Utils.FunctionPeriodic.StopTimer(System.String)">StopTimer(String)</h4>
+  <div class="markdown level1 summary"><p>Stop a function periodic objects in the runtime</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void StopTimer(string _name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">_name</span></td>
+        <td><p>Function periodic to stop</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/new/master/apiSpec/new?filename=_3OGS_Utils_FunctionPeriodic.md&amp;value=---%0Auid%3A%20_3OGS.Utils.FunctionPeriodic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/src/Assets/Plugins/3OGS_Utils/Utils/FunctionPeriodic.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

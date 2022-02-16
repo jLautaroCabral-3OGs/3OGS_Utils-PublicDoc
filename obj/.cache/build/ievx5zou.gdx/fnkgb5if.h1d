@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Caracter&#237;sticas </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Caracter&#237;sticas ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="características" sourcefile="articles/index.md" sourcestartlinenumber="1">Características</h1>
+
+<h3 id="lc_utils-createkeycodeaction" sourcefile="articles/index.md" sourcestartlinenumber="2">LC_Utils: CreateKeyCodeAction</h3>
+<p sourcefile="articles/index.md" sourcestartlinenumber="3">Esta función es muy tan útil como simple, su primer parámetro es una KeyCode y el segundo un Action que se llamará al presionar dicha tecla.</p>
+<p sourcefile="articles/index.md" sourcestartlinenumber="5">Retorna una instancia de FunctionUpdater, un monobehaviour que viene con el plugin y se explicará más adelante, por el momento podemos ignorarlo.</p>
+<pre><code sourcefile="articles/index.md" sourcestartlinenumber="7">public static FunctionUpdater LC_Utils.CreateKeyCodeAction(KeyCode key, Action onKeyDown)
+</code></pre>
+<p sourcefile="articles/index.md" sourcestartlinenumber="10">Ejemplo de uso:</p>
+<pre><code sourcefile="articles/index.md" sourcestartlinenumber="12">void Start() {
+	LC_Utils.CreateKeyCodeAction(KeyCode.A, () =&gt; Debug.Log(&quot;Hello (:-D)&quot;));
+}
+</code></pre>
+<h3 id="lc_utils-cameras--cameraswitcher" sourcefile="articles/index.md" sourcestartlinenumber="17">LC_Utils: Cameras &amp; CameraSwitcher</h3>
+<p sourcefile="articles/index.md" sourcestartlinenumber="18">Con el objetivo de navegar rápidamente por la escena, este plugin te permite instanciar dos tipos de cámara de espectador en tiempo de ejecución y con apenas unas líneas de código. Esto es principalmente útil en Dev Builds para recorrer la escena libremente y asegurarse de que todo funciona como debe, ya que en una Dev Build no podrás usar la vista de escena del editor.</p>
+<p sourcefile="articles/index.md" sourcestartlinenumber="20">En esta versión existen dos tipos de cámaras;</p>
+<h4 id="freelookcamera" sourcefile="articles/index.md" sourcestartlinenumber="22"><strong sourcefile="articles/index.md" sourcestartlinenumber="22">FreeLookCamera</strong></h4>
+<p sourcefile="articles/index.md" sourcestartlinenumber="23">Una cámara de vista libre que se maneja con WASD, el ratón, Q y E, al mantener click derecho la cámara deja de moverse y el cursor del mouse aparece, el cursor del mouse está oculto por defecto en esta cámara. Es parecida a la cámara de vista libre en Counter Strike.</p>
+<pre><code sourcefile="articles/index.md" sourcestartlinenumber="25">public static void LC_Debug.UseFreeLookCamera()
+</code></pre>
+<p sourcefile="articles/index.md" sourcestartlinenumber="29">Ejemplo de implementación:</p>
+<pre><code sourcefile="articles/index.md" sourcestartlinenumber="31">void Start() {
+    if(Input.GetMouseButtonDown(0))
+        LC_Debug.UseFreeLookCamera();
+}
+</code></pre>
+<p sourcefile="articles/index.md" sourcestartlinenumber="38">Un mejor ejemplo de implementación:</p>
+<pre><code sourcefile="articles/index.md" sourcestartlinenumber="40">void Start() {
+    LC_Utils.CreateKeyCodeAction(KeyCode.F1,
+        () =&gt; {
+            if (LC_Utils.IsBuildForProduction()) return; // Do nothing
+            LC_Debug.UseFreeLookCamera();
+        });
+}
+</code></pre>
+<hr sourcefile="articles/index.md" sourcestartlinenumber="50">
+<p sourcefile="articles/index.md" sourcestartlinenumber="51">💡 Momento de imaginación: Desarrollas un videojuego FPS multijugador online, necesitas probar en una Dev Build que al presionar el botón de un bunker, 4 puertas(a las que tardarías
+mucho en llegar si caminaras) se cierren, en ese momento puedes activar la FreeLookCamera para comprobar el estado y comportamiento de las puertas y otros jugadores al tratar de
+usarlas. Entonces no tendrás que caminar a ellas cada vez que pruebes. Seguro ya se te ocurrirán muchos escenarios dónde se puede ahorrar mucho tiempo usando una free look camera.</p>
+<h4 id="rotatearoundcamera" sourcefile="articles/index.md" sourcestartlinenumber="57"><strong sourcefile="articles/index.md" sourcestartlinenumber="57">RotateAroundCamera</strong></h4>
+<p sourcefile="articles/index.md" sourcestartlinenumber="58">Una cámara que sigue un objetivo y puede rotar al rededor de él, siempre mirando al mismo. Para rotar la cámara se utiliza el botón central del ratón, para hacer zoom se utiliza la rueda. Es parecida a la cámara que sigue los personajes en Counter Strike.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/jLautaroCabral-3OGs/3OGS_Utils-Doc/blob/master/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
